@@ -35,11 +35,7 @@ Sneakers, especially rare and sought-after pairs, are impossible to get nowadays
 
     Other libraries:
     
-    Webdatarocks: https://www.webdatarocks.com/?r=m7
-
-    Victory: https://formidable.com/open-source/victory/gallery/
-
-    CanvasJS: https://canvasjs.com/
+    Chart.js: https://www.chartjs.org/
 
 
 ***TIMELINE***

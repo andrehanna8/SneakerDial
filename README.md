@@ -24,11 +24,9 @@ Sneakers, especially rare and sought-after pairs, are impossible to get nowadays
     
     Some features will be implemented using a library called Sneaks:                                 https://github.com/druv5319/Sneaks-API#readme
 
-    ![SneakerTrack Home Page](https://imgur.com/gallery/beGuECF)
     
-    ![SneakerTrack Product View Page]((https://imgur.com/gallery/WcFoqgA)
-    
-    
+    ![image](https://user-images.githubusercontent.com/34076045/216459779-28252ca8-2434-43bf-98c6-f20f4123e83b.png)
+
     Other libraries:
     
     Webdatarocks: https://www.webdatarocks.com/?r=m7

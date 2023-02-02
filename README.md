@@ -26,7 +26,7 @@ Sneakers, especially rare and sought-after pairs, are impossible to get nowadays
 
     ![SneakerTrack Home Page](https://imgur.com/gallery/beGuECF)
     
-    ![SneakerTrack Home Page]((https://imgur.com/gallery/WcFoqgA)
+    ![SneakerTrack Product View Page]((https://imgur.com/gallery/WcFoqgA)
     
     
     Other libraries:

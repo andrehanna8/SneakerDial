@@ -52,7 +52,7 @@ Sneakers, especially rare and sought-after pairs, are impossible to get nowadays
       * Start with HTML and CSS, make sure that everything looks how its supposed to
       * Make the Homepage as well as the individual product view page
    - 2/6 Monday
-      * Complete HTML and CSS, if finished move on to incorporating Sneaks API with elemnts on           the page
+      * Complete HTML and CSS, if finished move on to incorporating Sneaks API with elemnets on the page
    - 2/7 Tuesday
       *  Continue with API incorporation
    - 2/8 Wednesday

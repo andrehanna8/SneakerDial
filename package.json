@@ -16,7 +16,7 @@
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1"
   },
-  "name": "sneakwatch",
+  "name": "sneakertrack",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -27,5 +27,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "SneakerTrack is data-visualization web-app designed to keep track of the current most popular sneakers and their price-trends.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrehanna8/SneakerTrack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andrehanna8/SneakerTrack/issues"
+  },
+  "homepage": "https://github.com/andrehanna8/SneakerTrack#readme"
 }

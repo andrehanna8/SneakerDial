@@ -30,10 +30,22 @@ function toggleClassName(inElement, inClassName)
 }
 
 
-  let root = document.documentElement;
+//   let root = document.documentElement;
 
-root.addEventListener("mousemove", e => {
-  root.style.setProperty('--mouse-x', e.clientX + "px");
-  root.style.setProperty('--mouse-y', e.clientY + "px");
-  console.log(e.clientX)
-});
+// root.addEventListener("mousemove", e => {
+//   root.style.setProperty('--mouse-x', e.clientX + "px");
+//   root.style.setProperty('--mouse-y', e.clientY + "px");
+//   console.log(e.clientX)
+// });
+
+const root = document.getElementById("container")
+    const shape = document.getElementById("shape")
+    root.addEventListener("mousemove", e => {
+       if (e.clientX > 500) {
+            shape.style.backgroundColor = "red";
+            console.log("red", shape)
+       } else {
+            shape.style.backgroundColor = "blue";
+            console.log("blue", shape)
+       }
+    })

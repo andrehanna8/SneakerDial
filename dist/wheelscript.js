@@ -531,119 +531,94 @@ const jordan_list = [
               "StadiumGoods-link": ""
             },
             {
-              "Name": "",
-              "Style-Code": "",
-              "Retail-Price": "",
-              "img-link": "",
-              "Release-Date": "",
-              "Product-Description": "",
-              "StockX-link": "",
-              "GOAT-link": "",
-              "StadiumGoods-link": ""
-            }
+              "Name": "Jordan 2 Retro Just Don Beach",
+              "Style-Code": "834825-250",
+              "Retail-Price": "$650",
+              "img-link": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/078/458/959/original/39207_01.jpg.jpeg?action=crop&width=900",
+              "Release-Date": "01/30/2016",
+              "Product-Description": "The man behind the Just Don brand, Don C (aka Don Crawley), made his name as a tour manager for Kanye West and then an executive with Kanye’s G.O.O.D Music. Don C founded Just Don in 2011, and released the Just Don x Jordan 2 Retro ‘Royal Blue’ in 2015. Don brought a mix of high-end leather and a unique quilted stitching to the Air Jordan 2 line. In 2016, Jordan and Don collaborated on this Just Don x Air Jordan 2 Retro ‘Beach’ sneaker. The shoe features the Just Don treatment as the first, but in a new tonal, sandy brown hue.",
+              "StockX-link": "https://stockx.com/jordan-2-retro-just-don-beach",
+              "GOAT-link": "https://www.goat.com/sneakers/don-c-x-air-jordan-2-retro-just-don-834825-250"
+            },
+            
           ]
 
     ]
     
 
-
-// jordan_1_list.forEach(sneaker => {
-//     const sneakerDropdownItem = document.getElementById("myDropdown")
-
-//        console.log(sneakerDropdownItem)
-//        const sneakerInfoContainer = document.getElementById("sneaker-info");
-
-//        const nameElement = document.getElementById("shoe-name");
-//        nameElement.innerText = sneaker.Name;
-   
-//        const cardNameElement = document.getElementById("shoe-card-name");
-//        cardNameElement.innerText = sneaker.Name;
-   
-//        const cardImg = document.getElementById("shoe-img");
-//        cardImg.innerText = sneaker.ImgLink;
-   
-//        const cardStyleCode = document.getElementById("style-code");
-//        cardStyleCode.innerText = sneaker.StyleCode;
-   
-//        const cardStockXLink = document.getElementById("stockx-link");
-//        cardStockXLink.innerText = sneaker.StockXLink;
-   
-//        const cardGoatLink = document.getElementById("goat-link");
-//        cardGoatLink.innerText = sneaker.GOATLink;
-// })
-
 const homepage = document.getElementById("homepage")
 const catalog = document.getElementById("catalog")
-// const parent = document.getElementById("myDropdown")
 
 homepage.addEventListener('click', (e) => {
     if (e.target.className === "resize" ) {
         homepage.setAttribute("hidden", true) 
         catalog.removeAttribute("hidden") 
-        const index = Number(e.target.id) 
-        console.log(index)
-        console.log(jordan_list[index])
-        // const sneakers = jordan_list[index];
+        const index = Number(e.target.id)
 
     jordan_list[index].forEach(sneaker => { 
         
-            let newDropdown = document.createElement("div")
-            newDropdown.className = "dropdown"
-            newDropdown.id = "parent-dropdown"
-    
-            const button = document.createElement("button")
-            button.className = "dropbtn"
-            button.id = "parent-button"
-    
-            const sneakerName = document.createElement("p")
-            sneakerName.id = "dropdown-name"
-            newDropdown.append(sneakerName)
-    
-            const sneakerPrice = document.createElement("p")
-            sneakerPrice.id = "dropdown-price"
-            newDropdown.append(sneakerPrice)
-    
-            const sneakerStyleCode = document.createElement("p")
-            sneakerStyleCode.id = "dropdown-style-code"
-            newDropdown.append(sneakerStyleCode)
-    
-            const sneakerImage = document.createElement("img")
-            sneakerImage.id = "dropdown-img"
-            newDropdown.append(sneakerImage)
-    
-            const sneakerDescription = document.createElement("p")
-            sneakerDescription.id = "dropdown-description"
-            newDropdown.append(sneakerDescription)
-    
-            const sneakerStockX = document.createElement("a")
-            sneakerStockX.id = "dropdown-stockx"
-            newDropdown.append(sneakerStockX)
-    
-            const sneakerGOAT = document.createElement("a")
-            sneakerGOAT.id = "dropdown-goat"
-            newDropdown.append(sneakerGOAT)
-    
-            const parent = document.getElementById("parent-dropdown")
-            parent.append(newDropdown)
-    
+        const sneaker_div = document.createElement("div")
+        const sneaker_div_img = document.createElement("img")
+        sneaker_div_img.classList.add("dd-img")
+        const sneaker_div_button = document.createElement("button")
+
+        sneaker_div_button.innerText = "More Info"
+        sneaker_div_img.src = sneaker["img-link"]
+        sneaker_div.append(sneaker_div_img)
+        sneaker_div.append(sneaker_div_button)
+
+        const parent = document.getElementById("parent-dropdown")
+        parent.append(sneaker_div)
             
-            sneakerPrice.innerText = sneaker["Retail-Price"]
-            sneakerStyleCode.innerText = sneaker["Style-Code"]
-            sneakerImage.src = sneaker["img-link"]
-            sneakerDescription.innerText = sneaker["Product-Description"]
+        sneaker_div_button.addEventListener('click', (e) => {
+            const sneakerInfoContainer = document.createElement("div");
+            sneakerInfoContainer.classList.add("dropdown-content");
+            
+            const nameElement = document.createElement("p");
+            nameElement.classList.add("dropdwon-stuff")
+            nameElement.id = "dropdown-name";
+            nameElement.innerText = sneaker.Name;
+            sneakerInfoContainer.append(nameElement)
+            
+            const priceElement = document.createElement("p");
+            priceElement.classList.add("dropdown-stuff")
+            priceElement.id = "dropdown-price";
+            priceElement.innerText = sneaker["Retail-Price"];
+            sneakerInfoContainer.append(priceElement)
 
+            const styleCodeElement = document.createElement("p");
+            styleCodeElement.classList.add("dropdown-stuff")
+            styleCodeElement.id = "dropdown-style-code";
+            styleCodeElement.innerText = sneaker["Style-Code"];
+            sneakerInfoContainer.append(styleCodeElement)
 
+            const releaseDateElement = document.createElement("p");
+            releaseDateElement.classList.add("dropdown-stuff")
+            releaseDateElement.id = "dropdown-release-date";
+            releaseDateElement.innerText = sneaker["Release-Date"];
+            sneakerInfoContainer.append(releaseDateElement)
+
+            const productDescriptionElement = document.createElement("p");
+            productDescriptionElement.classList.add("dropdown-stuff")
+            productDescriptionElement.id = "dropdown-product-description";
+            productDescriptionElement.innerText = sneaker["Product-Description"];
+            sneakerInfoContainer.append(productDescriptionElement)
+            
+            const stockXLinkElement = document.createElement("p");
+            stockXLinkElement.classList.add("dropdown-stockx-link");
+            stockXLinkElement.innerText = sneaker["StockX-link"];
+            sneakerInfoContainer.append(stockXLinkElement)
+            
+            const goatLinkElement = document.createElement("p");
+            goatLinkElement.innerText = sneaker["GOAT-link"];
+            goatLinkElement.classList.add("dropdown-goat-link");
+            sneakerInfoContainer.append(goatLinkElement)
+            
+            sneaker_div.append(sneakerInfoContainer)
+            console.log("button clicked")
+        })
     })
-
-
-        
-        // const sneaker = jordan_1_list[index]
-        
-        
-        
-
-    }
-   //use the index, key into the sneaker, find info that corresponds and set each of the values to the inner text of the dropdown
-    
+}    
 })
+
 

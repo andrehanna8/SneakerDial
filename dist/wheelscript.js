@@ -2523,9 +2523,6 @@ const clickevent = homepage.addEventListener('click', (e) => {
         const card_div = document.createElement("div") // !create card div
         const breakline = document.createElement("br") // !create breakline
 
-        // sneaker_div.append(breakline)
-
-        
         const parent = document.getElementById("parent-dropdown") // *get parent div
         parent.append(sneaker_div) // & append sneaker div to parent div
             

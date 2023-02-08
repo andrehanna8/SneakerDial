@@ -162,10 +162,33 @@ body {
 } */
 
 .dd-img {
-  max-width: 400px;
+  max-width: 40px;
   height: 100%;
 }
-
+.dd-button-img {
+  width: 10px;
+  height: 10;
+}
 .dropdown-stuff {
   color: black;
+}
+.dropdown-content {
+  display: flex;
+}
+
+.card-stuff {
+  color: black;
+}
+
+h3 {
+  color: black;
+}
+#shoe-img {
+  width: 110px;
+  height: 70px;
+}
+
+#fixed {
+    position: fixed;
+    top: 300px;
 }

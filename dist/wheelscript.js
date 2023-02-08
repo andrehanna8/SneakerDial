@@ -544,6 +544,17 @@ const jordan_list = [
           ]
 
     ]
+
+    document.addEventListener("click", function (event) {
+        let dropdownContent = document.querySelector(".dropdown-content");
+        let dropdownButton = document.querySelector(".dropbtn");
+      
+        if (!dropdownContent.contains(event.target) && event.target !== dropdownButton) {
+          dropdownContent.style.display = "none";
+        } else {
+            dropdownContent.style.display = "block";
+        }
+      });
     
 
 const homepage = document.getElementById("homepage")
@@ -551,71 +562,137 @@ const catalog = document.getElementById("catalog")
 
 homepage.addEventListener('click', (e) => {
     if (e.target.className === "resize" ) {
-        homepage.setAttribute("hidden", true) 
-        catalog.removeAttribute("hidden") 
+        homepage.setAttribute("hidden", true) //hides homepage
+        catalog.removeAttribute("hidden") // shows catalog
         const index = Number(e.target.id)
 
     jordan_list[index].forEach(sneaker => { 
         
-        const sneaker_div = document.createElement("div")
-        const sneaker_div_img = document.createElement("img")
-        sneaker_div_img.classList.add("dd-img")
-        const sneaker_div_button = document.createElement("button")
+        const sneaker_div = document.createElement("div") // !create sneaker div
+        const sneaker_div_img = document.createElement("img") // !create sneaker div img
+        sneaker_div_img.classList.add("dd-img") // ~add class to img
+        const sneaker_div_button = document.createElement("button") // !create sneaker div button
+        sneaker_div_button.classList.add("dropbtn") // ~add class to button
 
-        sneaker_div_button.innerText = "More Info"
-        sneaker_div_img.src = sneaker["img-link"]
-        sneaker_div.append(sneaker_div_img)
-        sneaker_div.append(sneaker_div_button)
+        const button_image = document.createElement("img") // !create sneaker div dropdown image
+        button_image.src = sneaker["img-link"] // ~add img to dropdown button
+        button_image.classList.add("dd-button-img") // ~add class to dropdown button image
+        sneaker_div_button.append(button_image) // & append dropdown button image to button
 
-        const parent = document.getElementById("parent-dropdown")
-        parent.append(sneaker_div)
-            
-        sneaker_div_button.addEventListener('click', (e) => {
-            const sneakerInfoContainer = document.createElement("div");
-            sneakerInfoContainer.classList.add("dropdown-content");
-            
-            const nameElement = document.createElement("p");
-            nameElement.classList.add("dropdwon-stuff")
-            nameElement.id = "dropdown-name";
-            nameElement.innerText = sneaker.Name;
-            sneakerInfoContainer.append(nameElement)
-            
-            const priceElement = document.createElement("p");
-            priceElement.classList.add("dropdown-stuff")
-            priceElement.id = "dropdown-price";
-            priceElement.innerText = sneaker["Retail-Price"];
-            sneakerInfoContainer.append(priceElement)
+        sneaker_div_button.innerText = "More Info" // ~add text to button
+        sneaker_div_img.src = sneaker["img-link"] // ~add img to img
+        sneaker_div.append(sneaker_div_img) // & append img to div
+        sneaker_div.append(sneaker_div_button) // & append button to div
 
-            const styleCodeElement = document.createElement("p");
-            styleCodeElement.classList.add("dropdown-stuff")
-            styleCodeElement.id = "dropdown-style-code";
-            styleCodeElement.innerText = sneaker["Style-Code"];
-            sneakerInfoContainer.append(styleCodeElement)
+        const card_div = document.createElement("div") // !create card div
 
-            const releaseDateElement = document.createElement("p");
-            releaseDateElement.classList.add("dropdown-stuff")
-            releaseDateElement.id = "dropdown-release-date";
-            releaseDateElement.innerText = sneaker["Release-Date"];
-            sneakerInfoContainer.append(releaseDateElement)
+        
+        const parent = document.getElementById("parent-dropdown") // *get parent div
+        parent.append(sneaker_div) // & append sneaker div to parent div
+            
+        const cardParent = document.getElementById("card-container") // *get card parent div
 
-            const productDescriptionElement = document.createElement("p");
-            productDescriptionElement.classList.add("dropdown-stuff")
-            productDescriptionElement.id = "dropdown-product-description";
-            productDescriptionElement.innerText = sneaker["Product-Description"];
-            sneakerInfoContainer.append(productDescriptionElement)
+        sneaker_div_button.addEventListener('click', (e) => { // add event listener to button
             
-            const stockXLinkElement = document.createElement("p");
-            stockXLinkElement.classList.add("dropdown-stockx-link");
-            stockXLinkElement.innerText = sneaker["StockX-link"];
-            sneakerInfoContainer.append(stockXLinkElement)
+            const header_name = document.getElementById("shoe-name") 
+            header_name.innerText = sneaker.Name
             
-            const goatLinkElement = document.createElement("p");
-            goatLinkElement.innerText = sneaker["GOAT-link"];
-            goatLinkElement.classList.add("dropdown-goat-link");
-            sneakerInfoContainer.append(goatLinkElement)
+            const shoe_card_name = document.getElementById("shoe-card-name")
+            shoe_card_name.innerText = "Name: " + sneaker.Name
+
+            const shoe_img = document.getElementById("shoe-img")
+            shoe_img.src = sneaker["img-link"]
+
+            const shoe_style_code = document.getElementById("style-code")
+            shoe_style_code.innerText = "Style Code: " + sneaker["Style-Code"]
+
+            const shoe_stockx_link = document.getElementById("stockx-link")
+            shoe_stockx_link.href = sneaker["StockX-link"]
+            shoe_stockx_link.innerText = "Find on StockX!"
+
+            const shoe_goat_link = document.getElementById("goat-link")
+            shoe_goat_link.href = sneaker["GOAT-link"]
+            shoe_goat_link.innerText = "Find on GOAT!"
             
-            sneaker_div.append(sneakerInfoContainer)
-            console.log("button clicked")
+
+
+            // const infoCard = document.createElement("div") // !create info card
+            // infoCard.classList.add("info-card") // ~add class to info card
+
+            // const cardName = document.createElement("p") // !create card name
+            // cardName.innerText = sneaker.Name // ~add text to card name
+            // cardName.classList.add("card-stuff") // ~add class to card name
+            // infoCard.append(cardName) // & append card name to info card
+
+            // const cardImg = document.createElement("img") // !create card img
+            // cardImg.src = sneaker["img-link"] // ~add img to card img
+            // cardImg.classList.add("card-stuff") // ~add class to card img
+            // infoCard.append(cardImg) // & append card img to info card
+
+            // const cardStyleCode = document.createElement("p") // !create card style code
+            // cardStyleCode.innerText = sneaker["Style-Code"] // ~add text to card style code
+            // cardStyleCode.classList.add("card-stuff") // ~add class to card style code
+            // infoCard.append(cardStyleCode) // & append card style code to info card
+
+            // const cardStockXLInk = document.createElement("a") // !create card stockx link
+            // cardStockXLInk.href = sneaker["StockX-link"] // ~add link to card stockx link
+            // cardStockXLInk.innerText = "Find on StockX!" // ~add text to card stockx link
+            // cardStockXLInk.classList.add("card-stuff") // ~add class to card stockx link
+            // infoCard.append(cardStockXLInk) // & append card stockx link to info card
+
+            // const cardGOATLink = document.createElement("a") // !create card goat link
+            // cardGOATLink.href = sneaker["GOAT-link"] // ~add link to card goat link
+            // cardGOATLink.innerText = "Find on GOAT!"   // ~add text to card goat link
+            // cardGOATLink.classList.add("card-stuff") // ~add class to card goat link
+            // infoCard.append(cardGOATLink) // & append card goat link to info card
+
+
+            
+            const sneakerInfoContainer = document.createElement("div"); // !create sneaker info container
+            sneakerInfoContainer.classList.add("dropdown-content"); // ~add class to sneaker info container
+            
+            const nameElement = document.createElement("p"); // !create name element
+            nameElement.classList.add("dropdwon-stuff") // ~add class to name element
+            nameElement.id = "dropdown-name"; // ~add id to name element
+            nameElement.innerText = sneaker.Name; // ~add text to name element
+            sneakerInfoContainer.append(nameElement) // & append name element to sneaker info container
+            
+            const priceElement = document.createElement("p");  // !create price element
+            priceElement.classList.add("dropdown-stuff") // ~add class to price element
+            priceElement.id = "dropdown-price"; // ~add id to price element
+            priceElement.innerText = sneaker["Retail-Price"]; // ~add text to price element
+            sneakerInfoContainer.append(priceElement) // & append price element to sneaker info container
+
+            const styleCodeElement = document.createElement("p"); // !create style code element
+            styleCodeElement.classList.add("dropdown-stuff") // ~add class to style code element
+            styleCodeElement.id = "dropdown-style-code"; // ~add id to style code element
+            styleCodeElement.innerText = sneaker["Style-Code"]; // ~add text to style code element
+            sneakerInfoContainer.append(styleCodeElement) // & append style code element to sneaker info container
+
+            const releaseDateElement = document.createElement("p"); // !create release date element
+            releaseDateElement.classList.add("dropdown-stuff") // ~add class to release date element
+            releaseDateElement.id = "dropdown-release-date"; // ~add id to release date element
+            releaseDateElement.innerText = sneaker["Release-Date"]; // ~add text to release date element
+            sneakerInfoContainer.append(releaseDateElement) // & append release date element to sneaker info container
+
+            const productDescriptionElement = document.createElement("p"); // !create product description element
+            productDescriptionElement.classList.add("dropdown-stuff") // ~add class to product description element
+            productDescriptionElement.id = "dropdown-product-description"; // ~add id to product description element
+            productDescriptionElement.innerText = sneaker["Product-Description"]; // ~add text to product description element
+            sneakerInfoContainer.append(productDescriptionElement) // & append product description element to sneaker info container
+            
+            const stockXLinkElement = document.createElement("p"); // !create stockx link element
+            stockXLinkElement.classList.add("dropdown-stockx-link"); // ~add class to stockx link element
+            stockXLinkElement.innerText = sneaker["StockX-link"]; // ~add text to stockx link element
+            sneakerInfoContainer.append(stockXLinkElement) // & append stockx link element to sneaker info container
+            
+            const goatLinkElement = document.createElement("p"); // !create goat link element
+            goatLinkElement.innerText = sneaker["GOAT-link"]; // ~add text to goat link element
+            goatLinkElement.classList.add("dropdown-goat-link"); // ~add class to goat link element
+            sneakerInfoContainer.append(goatLinkElement) // & append goat link element to sneaker info container
+            
+            sneaker_div.append(sneakerInfoContainer) // & append sneaker info container to sneaker div
+            console.log("button clicked") 
         })
     })
 }    

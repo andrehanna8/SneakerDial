@@ -11,6 +11,7 @@
     <script src="dist/main.js"></script>
     <script src="dist/views-jordan/jordan-view.js" defer></script>
     <title>SneakerDial</title>
+    <link rel="icon" href="./21109.png" type="image/gif" />
   </head>
 <!-- Place this tag where you want the button to render. -->
 
@@ -53,21 +54,25 @@
         
         <h1>SneakerDial</h1> 
       
-        <h2 class="slide" id="shoe-name">Shoe Name Placeholder</h2>
+        <h2 class="slide" id="shoe-name">Select a Shoe!</h2>
     
         <!-- card and catalog elements -->
-        <div class="container">
-            <div class="info-card"> 
-              <p id="shoe-card-name">Shoe name</p>
-              <p id="shoe-img">put img here</p>
-              <p id="style-code">style code</p>
-              <p id="stockx-link">link 1</p>
-              <p id="goat-link">link 2</p>
+        <div class="card-container">
+            <div id="fixed" class="info-card"> 
+              <h3>Currently Viewing:</h3>
+              <p id="shoe-card-name" class="card-stuff"></p>
+              <br>
+              <img id="shoe-img" class="card-stuff"></p>
+              <br>
+              <p id="style-code" class="card-stuff"></p>
+              <br>
+              <p id="stockx-link" class="card-stuff"></p>
+              <br>
+              <p id="goat-link" class="card-stuff"></p>
               <!-- <button class="card-button">See More</button> -->
             </div>
     
             <div class="catalog">
-              <p>search bar</p>
               <div id="parent-dropdown" class="dropdown">
                 <button id="parent-button" onclick="myFunction()" class="dropbtn">SneakerName - Retail Price - Avg Sale Price - See More</button>
                 <div id="myDropdown" class="dropdown-content">

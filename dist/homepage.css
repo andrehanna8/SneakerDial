@@ -1,8 +1,10 @@
 .github-button {
   display: flex;
+  float: right;
   justify-content: right;
   align-items: right;
   height: 50px;
+  margin: 2%;
 }
 h1 {
     display: flex;
@@ -17,7 +19,8 @@ h2 {
     display: flex;
     font-family: Roboto;
     font-size: 25px;
-    justify-content: center;
+    /* justify-content: center; */
+    margin-left: 100px;
 }
 
 
@@ -216,10 +219,11 @@ h3 {
 #description-box {
   display: flex;
   float: right;
-  background-color: gray;
-  width: 520px;
+  background-color: rgb(136, 136, 136);
+  width: 500px;
   height: 175px;
   border-radius: 5px;
+  
   /* margin-bottom: 900px; */
 }
 
@@ -229,6 +233,23 @@ h3 {
   margin-left: 10px;
   margin-top: 10px;
 }
-/* #product-info {
+#link-info {
+  background-color:  rgb(136, 136, 136);
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  margin-left: 20px;
+  float: left;
+}
+
+#prod-price-info {
+  margin-top: 20px;
+  /* display: flex; */
+  background-color:  rgb(136, 136, 136);
+  width: 533px;
+  height: 150px;
+  border-radius: 5px;
+  /* margin-left: 300px; */
+  float: right;
   
-} */
+}

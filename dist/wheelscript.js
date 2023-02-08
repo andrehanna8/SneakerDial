@@ -27,7 +27,7 @@ const jordan_list = [
             280
           ],
           "Price Premium": "164%",
-          "Average Sale Price": "$420"
+          "Average-Sale-Price": "$420"
         },
         {
           "Name": "Jordan 1 Retro High OG Taxi",
@@ -55,7 +55,7 @@ const jordan_list = [
             280
           ],
           "Price Premium": "36%",
-          "Average Sale Price": "$210"
+          "Average-Sale-Price": "$210"
         },
         {
           "Name": "Jordan 1 Retro High OG Bordeaux",
@@ -83,7 +83,7 @@ const jordan_list = [
             280
           ],
           "Price Premium": "N/A",
-          "Average Sale Price": "$187"
+          "Average-Sale-Price": "$187"
         },
         {
           "Name": "Jordan 1 Retro High OG Seafoam (W)",
@@ -111,7 +111,7 @@ const jordan_list = [
             280
           ],
           "Price Premium": "88%",
-          "Average Sale Price": "$290"
+          "Average-Sale-Price": "$290"
         },
         {
           "Name": "Jordan 1 Retro High OG Brotherhood",
@@ -139,7 +139,7 @@ const jordan_list = [
             280
           ],
           "Price Premium": "N/A",
-          "Average Sale Price": "$173"
+          "Average-Sale-Price": "$173"
         },
         {
           "Name": "Jordan 1 Retro High OG Stealth",
@@ -161,7 +161,7 @@ const jordan_list = [
             157
           ],
           "Price Premium": "N/A",
-          "Average Sale Price": "$160"
+          "Average-Sale-Price": "$160"
         },
         {
           "Name": "Jordan 1 Retro High OG Heritage",
@@ -189,7 +189,7 @@ const jordan_list = [
             280
           ],
           "Price Premium": "N/A",
-          "Average Sale Price": "$173"
+          "Average-Sale-Price": "$173"
         },
         {
           "Name": "Jordan 1 Retro High OG Rebellionaire",
@@ -217,7 +217,7 @@ const jordan_list = [
             280
           ],
           "Price Premium": "29%",
-          "Average Sale Price": "$258"
+          "Average-Sale-Price": "$258"
         },
         {
           "Name": "Jordan 1 Retro High OG Laney",
@@ -245,7 +245,7 @@ const jordan_list = [
             280
           ],
           "Price Premium": "259%",
-          "Average Sale Price": "$592"
+          "Average-Sale-Price": "$592"
         },
         {
           "Name": "Jordan 1 Retro High OG Defiant Couture",
@@ -273,7 +273,7 @@ const jordan_list = [
             280
           ],
           "Price Premium": "14%",
-          "Average Sale Price": "$210"
+          "Average-Sale-Price": "$210"
         },
         {
           "Name": "Jordan 1 Retro High OG Atmosphere (W)",
@@ -301,7 +301,7 @@ const jordan_list = [
             280
           ],
           "Price Premium": "32%",
-          "Average Sale Price": "$232"
+          "Average-Sale-Price": "$232"
         },
         {
           "Name": "Jordan 1 Retro High OG Heirloom",
@@ -329,7 +329,7 @@ const jordan_list = [
             280
           ],
           "Price Premium": "N/A",
-          "Average Sale Price": "$148"
+          "Average-Sale-Price": "$148"
         },
         {
           "Name": "Jordan 1 Retro High OG Starfish (W)",
@@ -357,7 +357,7 @@ const jordan_list = [
             280
           ],
           "Price Premium": "N/A",
-          "Average Sale Price": "$180"
+          "Average-Sale-Price": "$180"
         },
         {
           "Name": "Jordan 1 Retro High OG SP Travis Scott",
@@ -385,7 +385,7 @@ const jordan_list = [
             280
           ],
           "Price Premium": "877%",
-          "Average Sale Price": "$1,761"
+          "Average-Sale-Price": "$1,761"
         },
         {
           "Name": "Jordan 1 Retro High OG SP Fragment x Travis Scott",
@@ -413,7 +413,7 @@ const jordan_list = [
             280
           ],
           "Price Premium": "1281%",
-          "Average Sale Price": "$2,681"
+          "Average-Sale-Price": "$2,681"
         },
         {
           "Name": "Jordan 1 Retro Low OG SP Travis Scott",
@@ -441,7 +441,7 @@ const jordan_list = [
             280
           ],
           "Price Premium": "1100%",
-          "Average Sale Price": "$1,784"
+          "Average-Sale-Price": "$1,784"
         },
         {
           "Name": "Jordan 1 Low Fragment x Travis Scott",
@@ -469,7 +469,7 @@ const jordan_list = [
             280
           ],
           "Price Premium": "875%",
-          "Average Sale Price": "$1,541"
+          "Average-Sale-Price": "$1,541"
         },
         {
           "Name": "Jordan 1 Retro High Fragment",
@@ -497,7 +497,7 @@ const jordan_list = [
             280
           ],
           "Price Premium": "1697%",
-          "Average Sale Price": "$3,822"
+          "Average-Sale-Price": "$3,822"
         },
         {
           "Name": "Jordan 1 Retro High OG SP Utility Stash",
@@ -525,7 +525,7 @@ const jordan_list = [
             280
           ],
           "Price Premium": "N/A",
-          "Average Sale Price": "$191"
+          "Average-Sale-Price": "$191"
         },
         {
           "Name": "Jordan 1 Retro High Utility Pack (W)",
@@ -553,7 +553,7 @@ const jordan_list = [
             280
           ],
           "Price Premium": "10%",
-          "Average Sale Price": "$210"
+          "Average-Sale-Price": "$210"
         },
         {
           "Name": "Jordan 1 High Zoom Air CMFT Lemon Twist (W)",
@@ -581,7 +581,7 @@ const jordan_list = [
             280
           ],
           "Price Premium": "N/A",
-          "Average Sale Price": "$133"
+          "Average-Sale-Price": "$133"
         },
         {
           "Name": "Jordan 1 Retro High Bloodline",
@@ -609,7 +609,7 @@ const jordan_list = [
             280
           ],
           "Price Premium": "66%",
-          "Average Sale Price": "$307"
+          "Average-Sale-Price": "$307"
         },
         {
           "Name": "Jordan 1 High Element Gore-Tex Light Bone",
@@ -637,7 +637,7 @@ const jordan_list = [
             280
           ],
           "Price Premium": "34%",
-          "Average Sale Price": "$234"
+          "Average-Sale-Price": "$234"
         },
         {
           "Name": "Jordan 1 Retro High OG A Ma Maniére",
@@ -665,7 +665,7 @@ const jordan_list = [
             280
           ],
           "Price Premium": "57%",
-          "Average Sale Price": "$330"
+          "Average-Sale-Price": "$330"
         }
       ], [
         {
@@ -679,7 +679,7 @@ const jordan_list = [
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-2-retro-lucky-green-dr8884-103",
           "StadiumGoods-link": "",
           "Price Premium": "N/A",
-          "Average Sale Price": "$203"
+          "Average-Sale-Price": "$203"
         },
         {
           "Name": "Jordan 2 Retro OG Chicago (2022)",
@@ -692,7 +692,7 @@ const jordan_list = [
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-2-retro-chicago-2022-dx2454-106",
           "StadiumGoods-link": "",
           "Price Premium": "18%",
-          "Average Sale Price": "$261"
+          "Average-Sale-Price": "$261"
         },
         {
           "Name": "Jordan 2 Retro J Balvin",
@@ -705,7 +705,7 @@ const jordan_list = [
           "GOAT-link": "https://www.goat.com/sneakers/j-balvin-x-air-jordan-2-retro-dq7691-419",
           "StadiumGoods-link": "",
           "Price Premium": "N/A",
-          "Average Sale Price": "$290"
+          "Average-Sale-Price": "$290"
         },
         {
           "Name": "Jordan 2 Retro A Ma Maniére Airness",
@@ -718,7 +718,7 @@ const jordan_list = [
           "GOAT-link": "https://www.goat.com/sneakers/a-ma-maniere-x-air-jordan-2-retro-sp-amm-aj2",
           "StadiumGoods-link": "",
           "Price Premium": "56%",
-          "Average Sale Price": "$392"
+          "Average-Sale-Price": "$392"
         },
         {
           "Name": "Jordan 2 Retro Silver Anniversary",
@@ -731,7 +731,7 @@ const jordan_list = [
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-2-retro-25th-anniversary-385475-101",
           "StadiumGoods-link": "",
           "Price Premium": "122%",
-          "Average Sale Price": "$283"
+          "Average-Sale-Price": "$283"
         },
         {
           "Name": "Jordan 2 Retro Melo (2018)",
@@ -744,7 +744,7 @@ const jordan_list = [
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-2-retro-melo-385475-122",
           "StadiumGoods-link": "",
           "Price Premium": "84%",
-          "Average Sale Price": "$484"
+          "Average-Sale-Price": "$484"
         },
         {
           "Name": "Jordan 2 Retro Doernbecher Peacock",
@@ -757,7 +757,7 @@ const jordan_list = [
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-2-high-db-charity-318304-071",
           "StadiumGoods-link": "",
           "Price Premium": "N/A",
-          "Average Sale Price": "N/A"
+          "Average-Sale-Price": "N/A"
         },
         {
           "Name": "Jordan 2 Retro SP Union Grey Fog",
@@ -770,7 +770,7 @@ const jordan_list = [
           "GOAT-link": "https://www.goat.com/sneakers/union-la-x-air-jordan-2-retro-sp-grey-fog-dn3802-001",
           "StadiumGoods-link": "",
           "Price Premium": "4%",
-          "Average Sale Price": "$323"
+          "Average-Sale-Price": "$323"
         },
         {
           "Name": "Jordan 2 Retro SP Union Rattan",
@@ -783,7 +783,7 @@ const jordan_list = [
           "GOAT-link": "https://www.goat.com/sneakers/union-la-x-air-jordan-2-retro-sp-rattan-dn3802-200",
           "StadiumGoods-link": "",
           "Price Premium": "2%",
-          "Average Sale Price": "$491"
+          "Average-Sale-Price": "$491"
         },
         {
           "Name": "Jordan 2 Retro Low SP Off-White White Red",
@@ -796,7 +796,7 @@ const jordan_list = [
           "GOAT-link": "https://www.goat.com/sneakers/off-white-x-air-jordan-2-retro-low-sp-dj4375-106",
           "StadiumGoods-link": "",
           "Price Premium": "260%",
-          "Average Sale Price": "$984"
+          "Average-Sale-Price": "$984"
         },
         {
           "Name": "Jordan 2 Retro Low SP Off-White Black Blue",
@@ -809,7 +809,7 @@ const jordan_list = [
           "GOAT-link": "https://www.goat.com/sneakers/off-white-x-air-jordan-2-retro-low-sp-dj4375-black",
           "StadiumGoods-link": "",
           "Price Premium": "52%",
-          "Average Sale Price": "$453"
+          "Average-Sale-Price": "$453"
         },
         {
           "Name": "Jordan 2 Retro SP Maison Chateau Rouge",
@@ -822,7 +822,7 @@ const jordan_list = [
           "GOAT-link": "https://www.goat.com/sneakers/maison-chateau-rouge-x-air-jordan-2-united-youth-international-do5254-180",
           "StadiumGoods-link": "",
           "Price Premium": "N/A",
-          "Average Sale Price": "$257"
+          "Average-Sale-Price": "$257"
         },
         {
           "Name": "Jordan 2 Retro QF Univ. Blue Black (2010)",
@@ -835,7 +835,7 @@ const jordan_list = [
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-2-retro-qf-395709-401",
           "StadiumGoods-link": "",
           "Price Premium": "N/A",
-          "Average Sale Price": "N/A"
+          "Average-Sale-Price": "N/A"
         },
         {
           "Name": "Jordan 2 Retro Craft Muslin (W)",
@@ -848,7 +848,7 @@ const jordan_list = [
           "GOAT-link": "https://www.goat.com/sneakers/wmns-air-jordan-2-retro-craft-dx4400-118",
           "StadiumGoods-link": "",
           "Price Premium": "N/A",
-          "Average Sale Price": "$160"
+          "Average-Sale-Price": "$160"
         },
         {
           "Name": "Jordan 2 Retro Alternate 87",
@@ -861,7 +861,7 @@ const jordan_list = [
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-2-retro-bg-alternate-87-834276-001",
           "StadiumGoods-link": "",
           "Price Premium": "97%",
-          "Average Sale Price": "$272"
+          "Average-Sale-Price": "$272"
         },
         {
           "Name": "Jordan 2 Retro Low Responsibility",
@@ -874,7 +874,7 @@ const jordan_list = [
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-2-retro-low-responsibility-dr9834-060",
           "StadiumGoods-link": "",
           "Price Premium": "14%",
-          "Average Sale Price": "$232"
+          "Average-Sale-Price": "$232"
         },
         {
           "Name": "Jordan 2 Retro QF Black White",
@@ -887,7 +887,7 @@ const jordan_list = [
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-2-retro-qf-395709-001",
           "StadiumGoods-link": "",
           "Price Premium": "N/A",
-          "Average Sale Price": "$713"
+          "Average-Sale-Price": "$713"
         },
         {
           "Name": "Jordan 2 Retro Low SE Nina Chanel Abney White Malachite (W)",
@@ -900,7 +900,7 @@ const jordan_list = [
           "GOAT-link": "https://www.goat.com/sneakers/nina-chanel-abney-x-air-jordan-2-retro-low-se-dq0560-160",
           "StadiumGoods-link": "",
           "Price Premium": "N/A",
-          "Average Sale Price": "$183"
+          "Average-Sale-Price": "$183"
         },
         {
           "Name": "Jordan 2 Retro Multi-Color (W)",
@@ -913,7 +913,7 @@ const jordan_list = [
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-2-retro-raptors-ct6244-600",
           "StadiumGoods-link": "",
           "Price Premium": "N/A",
-          "Average Sale Price": "N/A"
+          "Average-Sale-Price": "N/A"
         },
         {
           "Name": "Jordan 2 Retro Decon Mint Foam",
@@ -926,7 +926,7 @@ const jordan_list = [
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-2-retro-deconstructed-mint-foam-897521-303",
           "StadiumGoods-link": "",
           "Price Premium": "N/A",
-          "Average Sale Price": "N/A"
+          "Average-Sale-Price": "N/A"
         },
         {
           "Name": "Jordan 2 Retro Low Gym Red",
@@ -939,7 +939,7 @@ const jordan_list = [
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-2-retro-low-gym-red-832819-606",
           "StadiumGoods-link": "",
           "Price Premium": "N/A",
-          "Average Sale Price": "$280"
+          "Average-Sale-Price": "$280"
         },
         {
           "Name": "Jordan 2 Retro Decon Bordeaux",
@@ -952,7 +952,7 @@ const jordan_list = [
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-2-retro-deconstructed-bordeaux-897521-606",
           "StadiumGoods-link": "",
           "Price Premium": "N/A",
-          "Average Sale Price": "N/A"
+          "Average-Sale-Price": "N/A"
         },
         {
           "Name": "Jordan 2 Retro Decon Mineral Gold",
@@ -965,7 +965,7 @@ const jordan_list = [
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-2-retro-deconstructed-897521-100",
           "StadiumGoods-link": "",
           "Price Premium": "N/A",
-          "Average Sale Price": "N/A"
+          "Average-Sale-Price": "N/A"
         },
         {
           "Name": "Jordan 2 Retro Quai 54",
@@ -978,7 +978,7 @@ const jordan_list = [
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-2-quai-54-866035-001",
           "StadiumGoods-link": "",
           "Price Premium": "233%",
-          "Average Sale Price": "N/A"
+          "Average-Sale-Price": "N/A"
         }
       ], [
         {
@@ -991,7 +991,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-3-retro-unc-2020",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-3-retro-unc-ct8532-104",
           "Price Premium": "215%",
-          "Average Sale Price": "$498"
+          "Average-Sale-Price": "$498"
         },
         {
           "Name": "Jordan 3 Retro Fragment",
@@ -1003,7 +1003,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-3-retro-fragment",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-3-retro-sp-da3595-100",
           "Price Premium": "20%",
-          "Average Sale Price": "$276"
+          "Average-Sale-Price": "$276"
         },
         {
           "Name": "Jordan 3 Retro A Ma Maniére (W)",
@@ -1015,7 +1015,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-3-retro-a-ma-maniere-w",
           "GOAT-link": "https://www.goat.com/sneakers/a-ma-maniere-x-wmns-air-jordan-3-retro-sp-violet-ore-dh3434-110",
           "Price Premium": "185%",
-          "Average Sale Price": "$619"
+          "Average-Sale-Price": "$619"
         },
         {
           "Name": "Jordan 3 Retro Neapolitan Dark Mocha (W)",
@@ -1027,7 +1027,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-3-retro-atmosphere-mocha-w",
           "GOAT-link": "https://www.goat.com/sneakers/wmns-air-jordan-3-neapolitan-ck9246-102",
           "Price Premium": "27%",
-          "Average Sale Price": "$231"
+          "Average-Sale-Price": "$231"
         },
         {
           "Name": "Jordan 3 Retro Dark Iris",
@@ -1039,7 +1039,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-3-retro-dark-iris",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-3-retro-dark-iris-ct8532-105",
           "Price Premium": "N/A",
-          "Average Sale Price": "$223"
+          "Average-Sale-Price": "$223"
         },
         {
           "Name": "Jordan 3 Retro Muslin",
@@ -1051,7 +1051,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-3-retro-muslin",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-3-retro-se-canvas-dh7139-100",
           "Price Premium": "35%",
-          "Average Sale Price": "$267"
+          "Average-Sale-Price": "$267"
         },
         {
           "Name": "Jordan 3 Retro Seoul",
@@ -1063,7 +1063,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-3-retro-seoul",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-3-retro-seoul",
           "Price Premium": "N/A",
-          "Average Sale Price": "N/A"
+          "Average-Sale-Price": "N/A"
         },
         {
           "Name": "Jordan 3 Retro Black Cat",
@@ -1075,7 +1075,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/jordan-3-retro-black-cat",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-3-retro-black-cat-136064-002",
           "Price Premium": "420%",
-          "Average Sale Price": "$475"
+          "Average-Sale-Price": "$475"
         },
         {
           "Name": "Jordan 3 Retro Black Cement (2011)",
@@ -1087,7 +1087,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/jordan-3-retro-black-cement-2011",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-3-retro-cement-2011-136064-010",
           "Price Premium": "144%",
-          "Average Sale Price": "$498"
+          "Average-Sale-Price": "$498"
         },
         {
           "Name": "Jordan 3 Retro Solefly Lotto",
@@ -1099,7 +1099,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-3-retro-solefly-lotto",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-3-retro-solefly-aj3-470085",
           "Price Premium": "N/A",
-          "Average Sale Price": "N/A"
+          "Average-Sale-Price": "N/A"
         },
         {
           "Name": "Jordan 3 Retro Hall of Fame",
@@ -1111,7 +1111,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-3-retro-katrina",
           "GOAT-link": "https://www.goat.com/sneakers/sneaker-politics-x-air-jordan-3-retro-hall-of-fame-136064-116-sp",
           "Price Premium": "34%",
-          "Average Sale Price": "$391"
+          "Average-Sale-Price": "$391"
         },
         {
           "Name": "Jordan 3 Retro Desert Elephant",
@@ -1123,7 +1123,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-3-retro-desert-elephant",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-3-retro-desert-ct8532-008",
           "Price Premium": "15%",
-          "Average Sale Price": "$227"
+          "Average-Sale-Price": "$227"
         },
         {
           "Name": "Jordan 3 Retro Cool Grey (2021)",
@@ -1135,7 +1135,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-3-retro-cool-grey-2021",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-3-retro-cool-grey-2021-ct8532-012",
           "Price Premium": "58%",
-          "Average Sale Price": "$263"
+          "Average-Sale-Price": "$263"
         },
         {
           "Name": "Jordan 3 Retro Patchwork Camo",
@@ -1147,7 +1147,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-3-retro-multi-camo",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-3-retro-camo-do1830-200",
           "Price Premium": "24%",
-          "Average Sale Price": "$236"
+          "Average-Sale-Price": "$236"
         },
         {
           "Name": "Jordan 3 Retro Chlorophyll",
@@ -1159,7 +1159,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-3-retro-chlorophyll",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-3-retro-chlorophyll-136064-006",
           "Price Premium": "37%",
-          "Average Sale Price": "$249"
+          "Average-Sale-Price": "$249"
         },
         {
           "Name": "Jordan 3 Retro Tinker Hatfield",
@@ -1171,7 +1171,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-3-retro-tinker-hatfield",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-3-retro-nrg-tinker-fire-red-aq3835-160",
           "Price Premium": "117%",
-          "Average Sale Price": "$355"
+          "Average-Sale-Price": "$355"
         },
         {
           "Name": "Jordan 3 Retro Cyber Monday (2016)",
@@ -1183,7 +1183,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-3-cyber-monday-2016",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-3-retro-136064-020",
           "Price Premium": "32%",
-          "Average Sale Price": "$277"
+          "Average-Sale-Price": "$277"
         },
         {
           "Name": "Jordan 3 Retro True Blue (2016)",
@@ -1195,7 +1195,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-3-retro-true-blue-2016",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-3-retro-og-true-blue-2016-854262-106",
           "Price Premium": "131%",
-          "Average Sale Price": "$451"
+          "Average-Sale-Price": "$451"
         },
         {
           "Name": "Jordan 3 Retro Powder Blue",
@@ -1207,7 +1207,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/jordan-3-retro-powder-blue",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-3-retro-powder-blue-136064-406",
           "Price Premium": "258%",
-          "Average Sale Price": "$390"
+          "Average-Sale-Price": "$390"
         },
         {
           "Name": "Jordan 3 Retro Harbor Blue (W)",
@@ -1219,7 +1219,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-retro-3-harbor-blue-w",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-3-retro-women-s-315296-142",
           "Price Premium": "71%",
-          "Average Sale Price": "$378"
+          "Average-Sale-Price": "$378"
         },
         {
           "Name": "Jordan 3 Retro Bordeaux (W)",
@@ -1231,7 +1231,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-3-retro-bordeaux-w",
           "GOAT-link": "https://www.goat.com/sneakers/wmns-air-jordan-3-bordeaux-ah7859-600",
           "Price Premium": "94%",
-          "Average Sale Price": "$215"
+          "Average-Sale-Price": "$215"
         },
         {
           "Name": "Jordan 3 Retro Rust Pink (W)",
@@ -1243,7 +1243,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-3-retro-rust-pink-w",
           "GOAT-link": "https://www.goat.com/sneakers/wmns-air-jordan-3-retro-rust-pink-ck9246-600",
           "Price Premium": "47%",
-          "Average Sale Price": "$260"
+          "Average-Sale-Price": "$260"
         }
       ], [
         {
@@ -1256,7 +1256,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-4-retro-taupe-haze",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-4-retro-taupe-haze-db0732-200",
           "Price Premium": "122%",
-          "Average Sale Price": "$431"
+          "Average-Sale-Price": "$431"
         },
         {
           "Name": "Jordan 4 Retro A Ma Maniére Violet Ore",
@@ -1268,7 +1268,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-4-retro-a-ma-maniere-violet-ore",
           "GOAT-link": "https://www.goat.com/sneakers/a-ma-maniere-x-air-jordan-4-retro-violet-ore-dv6773-220",
           "Price Premium": "92%",
-          "Average Sale Price": "$364"
+          "Average-Sale-Price": "$364"
         },
         {
           "Name": "Jordan 4 Retro Kaws",
@@ -1280,7 +1280,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-4-retro-kaws",
           "GOAT-link": "https://www.goat.com/sneakers/kaws-x-air-jordan-4-retro-930155-003-7d6f5beb-0f95-47bc-8b90-e48a32044b22",
           "Price Premium": "575%",
-          "Average Sale Price": "$3,668"
+          "Average-Sale-Price": "$3,668"
         },
         {
           "Name": "Jordan 4 Retro Infrared",
@@ -1292,7 +1292,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-4-retro-infrared",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-4-retro-infrared-dh6927-061",
           "Price Premium": "40%",
-          "Average Sale Price": "$263"
+          "Average-Sale-Price": "$263"
         },
         {
           "Name": "Jordan 4 Retro Military Black",
@@ -1304,7 +1304,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-4-retro-military-black",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-4-retro-military-black-dh6927-111",
           "Price Premium": "121%",
-          "Average Sale Price": "$319"
+          "Average-Sale-Price": "$319"
         },
         {
           "Name": "Jordan 4 Retro Black Cat (2020)",
@@ -1316,7 +1316,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-4-retro-black-cat-2020",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-4-retro-black-cat-2020-cu1110-010",
           "Price Premium": "421%",
-          "Average Sale Price": "$839"
+          "Average-Sale-Price": "$839"
         },
         {
           "Name": "Jordan 4 Retro Fire Red (2020)",
@@ -1328,7 +1328,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-4-retro-fire-red-2020",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-4-retro-og-fire-red-2020-dc7770-160",
           "Price Premium": "53%",
-          "Average Sale Price": "$364"
+          "Average-Sale-Price": "$364"
         },
         {
           "Name": "Jordan 4 Retro Midnight Navy",
@@ -1340,7 +1340,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-4-retro-white-midnight-navy",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-4-retro-midnight-navy-dh6927-140",
           "Price Premium": "31%",
-          "Average Sale Price": "$300"
+          "Average-Sale-Price": "$300"
         },
         {
           "Name": "Jordan 4 Retro Seafoam (W)",
@@ -1352,7 +1352,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-4-retro-oil-green-w",
           "GOAT-link": "https://www.goat.com/sneakers/wmns-air-jordan-4-retro-seafoam-aq9129-103",
           "Price Premium": "47%",
-          "Average Sale Price": "$319"
+          "Average-Sale-Price": "$319"
         },
         {
           "Name": "Jordan 4 Retro Canyon Purple (W)",
@@ -1364,7 +1364,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-4-retro-canyon-purple-w",
           "GOAT-link": "https://www.goat.com/sneakers/wmns-air-jordan-4-retro-canyon-purple-aq9129-500",
           "Price Premium": "74%",
-          "Average Sale Price": "$237"
+          "Average-Sale-Price": "$237"
         },
         {
           "Name": "Jordan 4 Retro Shimmer (W)",
@@ -1376,7 +1376,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-4-retro-shimmer-w",
           "GOAT-link": "https://www.goat.com/sneakers/wmns-air-jordan-4-retro-shimmer-dj0675-200",
           "Price Premium": "81%",
-          "Average Sale Price": "$346"
+          "Average-Sale-Price": "$346"
         },
         {
           "Name": "Jordan 4 Retro Metallic Purple",
@@ -1388,7 +1388,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-4-retro-white-court-purple",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-4-retro-court-purple-ct8527-115",
           "Price Premium": "184%",
-          "Average Sale Price": "$520"
+          "Average-Sale-Price": "$520"
         },
         {
           "Name": "Jordan 4 Retro Off-White Sail (W)",
@@ -1400,7 +1400,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-4-retro-off-white-sail-w",
           "GOAT-link": "https://www.goat.com/sneakers/off-white-x-wmns-air-jordan-4-sp-sail-cv9388-100",
           "Price Premium": "600%",
-          "Average Sale Price": "$1,593"
+          "Average-Sale-Price": "$1,593"
         },
         {
           "Name": "Jordan 4 Retro PSG Paris Saint-Germain",
@@ -1412,7 +1412,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-4-retro-psg-paris-saint-germain",
           "GOAT-link": "https://www.goat.com/sneakers/paris-saint-germain-x-air-jordan-4-retro-neutral-grey-cz5624-100",
           "Price Premium": "105%",
-          "Average Sale Price": "$417"
+          "Average-Sale-Price": "$417"
         },
         {
           "Name": "Jordan 4 Retro What The",
@@ -1424,7 +1424,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-4-retro-what-the",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-4-retro-se-what-the-4-ci1184-146",
           "Price Premium": "70%",
-          "Average Sale Price": "$405"
+          "Average-Sale-Price": "$405"
         },
         {
           "Name": "Jordan 4 Retro Red Thunder",
@@ -1436,7 +1436,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-4-retro-red-thunder",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-4-retro-red-thunder-ct8527-016",
           "Price Premium": "101%",
-          "Average Sale Price": "$335"
+          "Average-Sale-Price": "$335"
         },
         {
           "Name": "Jordan 4 Retro Lightning (2021)",
@@ -1448,7 +1448,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-4-retro-lightning-2021",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-4-retro-lightning-2021-ct8527-700",
           "Price Premium": "44%",
-          "Average Sale Price": "$302"
+          "Average-Sale-Price": "$302"
         },
         {
           "Name": "Jordan 4 Retro White Oreo (2021)",
@@ -1460,7 +1460,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-4-retro-white-oreo-2021",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-4-retro-oreo-ct8527-100",
           "Price Premium": "129%",
-          "Average Sale Price": "$423"
+          "Average-Sale-Price": "$423"
         },
         {
           "Name": "Jordan 4 Retro SE Craft Photon Dust",
@@ -1472,7 +1472,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-4-retro-se-craft-photon-dust",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-4-retro-se-craft-dv3742-021",
           "Price Premium": "89%",
-          "Average Sale Price": "$408"
+          "Average-Sale-Price": "$408"
         },
         {
           "Name": "Jordan 4 Retro University Blue",
@@ -1484,7 +1484,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-4-retro-university-blue",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-4-retro-university-blue-ct8527-400",
           "Price Premium": "140%",
-          "Average Sale Price": "$464"
+          "Average-Sale-Price": "$464"
         },
         {
           "Name": "Jordan 4 Retro Union Guava Ice",
@@ -1496,7 +1496,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-4-retro-union-guava-ice",
           "GOAT-link": "https://www.goat.com/sneakers/union-la-x-air-jordan-4-retro-guava-ice-dc9533-800",
           "Price Premium": "400%",
-          "Average Sale Price": "$1,262"
+          "Average-Sale-Price": "$1,262"
         },
         {
           "Name": "Jordan 4 Retro Cavs",
@@ -1508,7 +1508,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/jordan-4-retro-cavs",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-4-retro-cavs-308497-027",
           "Price Premium": "199%",
-          "Average Sale Price": "$507"
+          "Average-Sale-Price": "$507"
         }
       ], [
         {
@@ -1521,7 +1521,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-5-retro-aqua",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-5-retro-aqua-dd0587-047",
           "Price Premium": "N/A",
-          "Average Sale Price": "$205"
+          "Average-Sale-Price": "$205"
         },
         {
           "Name": "Jordan 5 Retro DJ Khaled We The Best Crimson Bliss",
@@ -1533,7 +1533,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-5-retro-dj-khaled-we-the-best-crimson-bliss",
           "GOAT-link": "https://www.goat.com/sneakers/dj-khaled-x-air-jordan-5-retro-we-the-best-crimson-bliss-dv4982-641",
           "Price Premium": "N/A",
-          "Average Sale Price": "$250"
+          "Average-Sale-Price": "$250"
         },
         {
           "Name": "Jordan 5 Retro Stealth",
@@ -1545,7 +1545,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/jordan-5-retro-stealth",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-5-retro-stealth-136027-142",
           "Price Premium": "68%",
-          "Average Sale Price": "$220"
+          "Average-Sale-Price": "$220"
         },
         {
           "Name": "Jordan 5 Retro Dark Concord",
@@ -1557,7 +1557,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-5-retro-concord",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-5-retro-concord-dd0587-141",
           "Price Premium": "3%",
-          "Average Sale Price": "$191"
+          "Average-Sale-Price": "$191"
         },
         {
           "Name": "Jordan 5 Retro Gore-Tex Off-Noir (W)",
@@ -1569,7 +1569,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-5-retro-gore-tex-off-noir-w",
           "GOAT-link": "https://www.goat.com/sneakers/wmns-air-jordan-5-gore-tex-off-noir-dr0092-001",
           "Price Premium": "N/A",
-          "Average Sale Price": "$231"
+          "Average-Sale-Price": "$231"
         },
         {
           "Name": "Jordan 5 Retro Low CLOT Jade",
@@ -1581,7 +1581,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-5-retro-low-clot-jade",
           "GOAT-link": "https://www.goat.com/sneakers/clot-x-air-jordan-5-retro-low-black-classic-jade-dm4640-036",
           "Price Premium": "N/A",
-          "Average Sale Price": "$212"
+          "Average-Sale-Price": "$212"
         },
         {
           "Name": "Jordan 5 Retro DJ Khaled We The Best Sail",
@@ -1593,7 +1593,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-5-retro-dj-khaled-we-the-best-sail",
           "GOAT-link": "https://www.goat.com/sneakers/dj-khaled-x-air-jordan-5-retro-we-the-best-sail-dv4982-175",
           "Price Premium": "18%",
-          "Average Sale Price": "$302"
+          "Average-Sale-Price": "$302"
         },
         {
           "Name": "Jordan 5 Retro Dunk on Mars (W)",
@@ -1605,7 +1605,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-5-retro-dunk-on-mars-w",
           "GOAT-link": "https://www.goat.com/sneakers/wmns-air-jordan-5-retro-mars-for-her-dd9336-800",
           "Price Premium": "N/A",
-          "Average Sale Price": "$182"
+          "Average-Sale-Price": "$182"
         },
         {
           "Name": "Jordan 5 Retro Green Bean (2022)",
@@ -1617,7 +1617,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-5-retro-green-bean-2022",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-5-green-bean-dm9014-003",
           "Price Premium": "19%",
-          "Average Sale Price": "$197"
+          "Average-Sale-Price": "$197"
         },
         {
           "Name": "Jordan 5 Retro UNC University Blue",
@@ -1629,7 +1629,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-5-retro-unc-university-blue",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-5-retro-unc-dv1310-401",
           "Price Premium": "52%",
-          "Average Sale Price": "$369"
+          "Average-Sale-Price": "$369"
         }
       ], [
         {
@@ -1642,7 +1642,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-6-retro-metallic-silver",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-6-retro-metallic-silver-dx2836-001",
           "Price Premium": "23%",
-          "Average Sale Price": "$232"
+          "Average-Sale-Price": "$232"
         },
         {
           "Name": "Jordan 6 Retro Cool Grey",
@@ -1654,7 +1654,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-6-retro-cool-grey",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-6-retro-cool-grey-ct8529-100",
           "Price Premium": "28%",
-          "Average Sale Price": "$276"
+          "Average-Sale-Price": "$276"
         },
         {
           "Name": "Jordan 6 Retro Georgetown (2022)",
@@ -1666,7 +1666,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-6-retro-georgetown-2022",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-6-retro-georgetown-ct8529-012",
           "Price Premium": "10%",
-          "Average Sale Price": "$224"
+          "Average-Sale-Price": "$224"
         },
         {
           "Name": "Jordan 6 Retro Midnight Navy (2022)",
@@ -1678,7 +1678,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-6-retro-midnight-navy-2022",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-6-retro-midnight-navy-2021-ct8529-141",
           "Price Premium": "7%",
-          "Average Sale Price": "$209"
+          "Average-Sale-Price": "$209"
         },
         {
           "Name": "Jordan 6 Retro UNC White",
@@ -1690,7 +1690,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-6-retro-unc-white",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-6-retro-unc-home-ct8529-410",
           "Price Premium": "8%",
-          "Average Sale Price": "$286"
+          "Average-Sale-Price": "$286"
         },
         {
           "Name": "Jordan 6 Retro Carmine (2021)",
@@ -1702,7 +1702,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-6-retro-carmine-2020",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-6-retro-og-carmine-2021-ct8529-106",
           "Price Premium": "1%",
-          "Average Sale Price": "$247"
+          "Average-Sale-Price": "$247"
         },
         {
           "Name": "Jordan 6 Retro Chrome Metallic Silver",
@@ -1714,7 +1714,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-6-retro-metallic-silver",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-6-retro-metallic-silver-dx2836-001",
           "Price Premium": "23%",
-          "Average Sale Price": "$232"
+          "Average-Sale-Price": "$232"
         },
         {
           "Name": "Jordan 6 Retro Travis Scott British Khaki",
@@ -1726,7 +1726,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-6-retro-travis-scott-british-khaki",
           "GOAT-link": "https://www.goat.com/sneakers/travis-scott-x-air-jordan-6-retro-british-khaki-dh0690-200",
           "Price Premium": "43%",
-          "Average Sale Price": "$384"
+          "Average-Sale-Price": "$384"
         },
         {
           "Name": "Jordan 6 Retro Red Oreo",
@@ -1738,7 +1738,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-6-retro-red-oreo",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-6-retro-red-oreo-ct8529-162",
           "Price Premium": "8%",
-          "Average Sale Price": "$217"
+          "Average-Sale-Price": "$217"
         },
         {
           "Name": "Jordan 6 Retro DMP (2020)",
@@ -1750,7 +1750,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-6-retro-dmp-2020",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-6-retro-dmp-2020-ct4954-007",
           "Price Premium": "35%",
-          "Average Sale Price": "$264"
+          "Average-Sale-Price": "$264"
         }
       ], [
         {
@@ -1763,7 +1763,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-7-retro-ray-allen-bucks",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-7-retro-ray-allen-bucks-away-304775-053",
           "Price Premium": "66%",
-          "Average Sale Price": "$291"
+          "Average-Sale-Price": "$291"
         },
         {
           "Name": "Jordan 7 Retro Citrus (2022)",
@@ -1775,7 +1775,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-7-retro-citrus-2022",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-7-retro-citrus-cu9307-081",
           "Price Premium": "N/A",
-          "Average Sale Price": "$206"
+          "Average-Sale-Price": "$206"
         },
         {
           "Name": "Jordan 7 Retro Cardinal (2022)",
@@ -1787,7 +1787,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-7-retro-cardinal-2022",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-7-retro-cardinal-2022-cu9307-106",
           "Price Premium": "N/A",
-          "Average Sale Price": "$194"
+          "Average-Sale-Price": "$194"
         },
         {
           "Name": "Jordan 7 Retro Black Olive",
@@ -1799,7 +1799,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-7-retro-black-olive",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-7-retro-black-olive-dn9782-001",
           "Price Premium": "N/A",
-          "Average Sale Price": "$185"
+          "Average-Sale-Price": "$185"
         },
         {
           "Name": "Jordan 7 Retro Trophy Room New Sheriff in Town",
@@ -1811,7 +1811,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-7-retro-trophy-room",
           "GOAT-link": "https://www.goat.com/sneakers/trophy-room-x-air-jordan-7-retro-olympic-dm1195-474",
           "Price Premium": "11%",
-          "Average Sale Price": "$315"
+          "Average-Sale-Price": "$315"
         },
         {
           "Name": "Jordan 7 Retro Flint (2021)",
@@ -1823,7 +1823,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-7-retro-flint-2021",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-7-retro-flint-2021-cu9307-100",
           "Price Premium": "N/A",
-          "Average Sale Price": "$170"
+          "Average-Sale-Price": "$170"
         },
         {
           "Name": "Jordan 7 Retro SE Sapphire",
@@ -1835,7 +1835,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-7-retro-se-sapphire",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-7-retro-se-sapphire-dj2636-204",
           "Price Premium": "N/A",
-          "Average Sale Price": "$206"
+          "Average-Sale-Price": "$206"
         },
         {
           "Name": "Jordan 7 Retro Neutral Grey",
@@ -1847,7 +1847,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-7-retro-hare-20",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-7-retro-se-neutral-grey-ct8528-002",
           "Price Premium": "N/A",
-          "Average Sale Price": "$190"
+          "Average-Sale-Price": "$190"
         },
         {
           "Name": "Jordan 7 Retro Bordeaux (2015)",
@@ -1859,7 +1859,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/jordan-7-retro-bordeaux-2015",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-7-retro-bordeux-304775-034",
           "Price Premium": "116%",
-          "Average Sale Price": "$395"
+          "Average-Sale-Price": "$395"
         },
         {
           "Name": "Jordan 7 Retro Hare (2015)",
@@ -1871,7 +1871,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/jordan-7-retro-hare-2015",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-7-hare-304775-125",
           "Price Premium": "66%",
-          "Average Sale Price": "$277"
+          "Average-Sale-Price": "$277"
         }
       ], [
         {
@@ -1884,7 +1884,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-8-retro-rui-hachimura",
           "GOAT-link": "https://www.goat.com/sneakers/rui-hachimura-x-air-jordan-8-retro-se-do2496-700",
           "Price Premium": "N/A",
-          "Average Sale Price": "$252"
+          "Average-Sale-Price": "$252"
         },
         {
           "Name": "Jordan 8 Retro Taxi Yellow Black (W)",
@@ -1896,7 +1896,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-8-retro-taxi-w",
           "GOAT-link": "https://www.goat.com/sneakers/wmns-air-jordan-8-retro-taxi-ci1236-007",
           "Price Premium": "N/A",
-          "Average Sale Price": "$185"
+          "Average-Sale-Price": "$185"
         },
         {
           "Name": "Jordan 8 Retro Aqua (2015)",
@@ -1908,7 +1908,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/jordan-8-retro-aqua-2015",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-8-retro-aqua-2015-305381-025",
           "Price Premium": "135%",
-          "Average Sale Price": "$406"
+          "Average-Sale-Price": "$406"
         },
         {
           "Name": "Jordan 8 Retro Playoffs (2013)",
@@ -1920,7 +1920,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/jordan-8-retro-playoffs-2013",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-8-retro-playoff-305381-061",
           "Price Premium": "163%",
-          "Average Sale Price": "$371"
+          "Average-Sale-Price": "$371"
         },
         {
           "Name": "Jordan 8 SP Retro SE White Multicolor",
@@ -1932,7 +1932,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-8-sp-retro-se-white-multi-dsm",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-8-retro-sp-se-multi-color-bq7666-100",
           "Price Premium": "N/A",
-          "Average Sale Price": "$227"
+          "Average-Sale-Price": "$227"
         },
         {
           "Name": "Jordan 8 Retro Alternate",
@@ -1944,7 +1944,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-8-retro-alternate",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-8-retro-alternate-305381-104",
           "Price Premium": "45%",
-          "Average Sale Price": "$279"
+          "Average-Sale-Price": "$279"
         },
         {
           "Name": "Jordan 8 Retro White Aqua (2019) (W)",
@@ -1956,7 +1956,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-8-retro-white-aqua-2019-w",
           "GOAT-link": "https://www.goat.com/sneakers/wmns-air-jordan-8-retro-white-aqua-ci1236-100",
           "Price Premium": "8%",
-          "Average Sale Price": "$176"
+          "Average-Sale-Price": "$176"
         },
         {
           "Name": "Jordan 8 Retro Doernbecher",
@@ -1968,7 +1968,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/jordan-8-retro-doernbecher",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-8-retro-db-doernbecher-729893-480",
           "Price Premium": "550%",
-          "Average Sale Price": "$1,242"
+          "Average-Sale-Price": "$1,242"
         },
         {
           "Name": "Jordan 8 Retro Quai 54 (2019)",
@@ -1980,7 +1980,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-8-retro-quai54-2019",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-8-retro-quai-54-aj8-quai",
           "Price Premium": "37%",
-          "Average Sale Price": "$276"
+          "Average-Sale-Price": "$276"
         },
         {
           "Name": "Jordan 8 Retro OVO White",
@@ -1992,7 +1992,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-8-retro-ovo-white",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-8-retro-ovo-aa1239-135",
           "Price Premium": "100%",
-          "Average Sale Price": "$460"
+          "Average-Sale-Price": "$460"
         }
       ], [
         {
@@ -2005,7 +2005,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-9-retro-fire-red",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-9-retro-fire-red-ct8019-162",
           "Price Premium": "12%",
-          "Average Sale Price": "$226"
+          "Average-Sale-Price": "$226"
         },
         {
           "Name": "Jordan 9 Retro Chile Red",
@@ -2017,7 +2017,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-9-retro-chile-red",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-9-retro-chile-red-ct8019-600",
           "Price Premium": "13%",
-          "Average Sale Price": "$248"
+          "Average-Sale-Price": "$248"
         },
         {
           "Name": "Jordan 9 Retro Light Olive Concord",
@@ -2029,7 +2029,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-9-retro-olive-concord",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-9-retro-olive-concord-ct8019-034",
           "Price Premium": "23%",
-          "Average Sale Price": "$279"
+          "Average-Sale-Price": "$279"
         },
         {
           "Name": "Jordan 9 Retro Particle Grey",
@@ -2041,7 +2041,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-9-retro-particle-grey",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-9-retro-particle-grey-ct8019-060",
           "Price Premium": "10%",
-          "Average Sale Price": "$237"
+          "Average-Sale-Price": "$237"
         },
         {
           "Name": "Jordan 9 Retro Boot NRG Black Light Gum",
@@ -2053,7 +2053,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-9-retro-boot-black-gum",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-9-retro-boot-nrg-black-gum-ar4491-025",
           "Price Premium": "N/A",
-          "Average Sale Price": "$236"
+          "Average-Sale-Price": "$236"
         },
         {
           "Name": "Jordan 9 Retro Boot NRG Military Brown Legion Green",
@@ -2065,7 +2065,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-9-retro-boot-military-brown",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-9-retro-boot-nrg-beef-and-broccoli-ar4491-200",
           "Price Premium": "N/A",
-          "Average Sale Price": "$207"
+          "Average-Sale-Price": "$207"
         },
         {
           "Name": "Jordan 9 Retro University Blue",
@@ -2077,7 +2077,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-9-retro-university-blue",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-9-retro-university-blue-ct8019-140",
           "Price Premium": "43%",
-          "Average Sale Price": "$286"
+          "Average-Sale-Price": "$286"
         },
         {
           "Name": "Jordan 9 Retro Bred Patent",
@@ -2089,7 +2089,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-9-retro-bred-patent",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-9-retro-302370-014",
           "Price Premium": "163%",
-          "Average Sale Price": "$466"
+          "Average-Sale-Price": "$466"
         },
         {
           "Name": "Jordan 9 Retro Dark Charcoal University Gold",
@@ -2101,7 +2101,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-9-retro-dark-charcoal-university-gold",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-9-retro-dark-charcoal-ct8019-070",
           "Price Premium": "51%",
-          "Average Sale Price": "$280"
+          "Average-Sale-Price": "$280"
         },
         {
           "Name": "Jordan 9 Retro Change The World (W)",
@@ -2113,7 +2113,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-9-retro-change-the-world-w",
           "GOAT-link": "https://www.goat.com/sneakers/wmns-air-jordan-9-retro-change-the-world-cv0420-100",
           "Price Premium": "N/A",
-          "Average Sale Price": "$195"
+          "Average-Sale-Price": "$195"
         }
       ], [
         {
@@ -2126,7 +2126,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/jordan-10-retro-doernbecher",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-10-retro-db-doernbecher-636214-066",
           "Price Premium": "N/A",
-          "Average Sale Price": "$348"
+          "Average-Sale-Price": "$348"
         },
         {
           "Name": "Jordan 10 Retro Bobcats",
@@ -2138,7 +2138,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/jordan-10-retro-bobcats",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-retro-10-bobcats-310805-026",
           "Price Premium": "135%",
-          "Average Sale Price": "$286"
+          "Average-Sale-Price": "$286"
         },
         {
           "Name": "Jordan 10 Retro Charlotte (2016)",
@@ -2150,7 +2150,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/jordan-10-retro-charlotte-2016",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-10-retro-charlotte-hornets-310805-107",
           "Price Premium": "N/A",
-          "Average Sale Price": "$225"
+          "Average-Sale-Price": "$225"
         },
         {
           "Name": "Jordan 10 OG Seattle Supersonics",
@@ -2162,7 +2162,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/jordan-10-og-seattle-supersonics",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-10-og-seattle-130209-106",
           "Price Premium": "N/A",
-          "Average Sale Price": "N/A"
+          "Average-Sale-Price": "N/A"
         },
         {
           "Name": "Jordan 10 Retro Tinker",
@@ -2174,7 +2174,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-10-retro-tinker",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-10-tinker-310805-408",
           "Price Premium": "60%",
-          "Average Sale Price": "$298"
+          "Average-Sale-Price": "$298"
         },
         {
           "Name": "Jordan 10 Retro Rio",
@@ -2186,7 +2186,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/jordan-10-retro-rio",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-10-retro-rio-310805-019",
           "Price Premium": "N/A",
-          "Average Sale Price": "$290"
+          "Average-Sale-Price": "$290"
         },
         {
           "Name": "Jordan 10 Retro Maya Moore (W)",
@@ -2198,7 +2198,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-10-retro-maya-moore-w",
           "GOAT-link": "https://www.goat.com/sneakers/maya-moore-x-wmns-air-jordan-10-court-lux-mm-aj10-court-lux",
           "Price Premium": "N/A",
-          "Average Sale Price": "$151"
+          "Average-Sale-Price": "$151"
         },
         {
           "Name": "Jordan 10 Retro Wings",
@@ -2210,7 +2210,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-10-retro-wings",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-10-retro-wings-ck4352-103",
           "Price Premium": "N/A",
-          "Average Sale Price": "$212"
+          "Average-Sale-Price": "$212"
         },
         {
           "Name": "Jordan 10 Retro Cool Grey",
@@ -2222,7 +2222,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/jordan-10-retro-cool-grey-infrared",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-10-cool-grey-310805-023",
           "Price Premium": "30%",
-          "Average Sale Price": "$325"
+          "Average-Sale-Price": "$325"
         },
         {
           "Name": "Jordan 10 Retro Cool Grey (2018)",
@@ -2234,7 +2234,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-10-retro-cool-grey",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-10-retro-cool-grey-310805-022",
           "Price Premium": "18%",
-          "Average Sale Price": "$351"
+          "Average-Sale-Price": "$351"
         }
       ], [
         {
@@ -2247,7 +2247,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-11-retro-cherry-2022",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-11-retro-cherry-ct8012-116",
           "Price Premium": "28%",
-          "Average Sale Price": "$297"
+          "Average-Sale-Price": "$297"
         },
         {
           "Name": "Jordan 11 Retro Cool Grey (2021)",
@@ -2259,7 +2259,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-11-retro-cool-grey-2021",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-11-retro-cool-grey-2021-ct8012-005",
           "Price Premium": "33%",
-          "Average Sale Price": "$369"
+          "Average-Sale-Price": "$369"
         },
         {
           "Name": "Jordan 11 Retro Midnight Navy (W)",
@@ -2271,7 +2271,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-11-retro-midnight-navy-w",
           "GOAT-link": "https://www.goat.com/sneakers/wmns-air-jordan-11-retro-navy-velvet-ar0715-441",
           "Price Premium": "N/A",
-          "Average Sale Price": "$227"
+          "Average-Sale-Price": "$227"
         },
         {
           "Name": "Jordan 11 Retro Low Legend Blue",
@@ -2283,7 +2283,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-11-retro-low-legend-blue",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-11-low-retro-legend-blue-av2187-117",
           "Price Premium": "52%",
-          "Average Sale Price": "$275"
+          "Average-Sale-Price": "$275"
         },
         {
           "Name": "Jordan 11 Retro Concord (2018)",
@@ -2295,7 +2295,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-11-retro-concord-2018",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-11-retro-concord-2018-378037-100",
           "Price Premium": "118%",
-          "Average Sale Price": "$511"
+          "Average-Sale-Price": "$511"
         },
         {
           "Name": "Jordan 11 Retro Space Jam (2016)",
@@ -2307,7 +2307,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/jordan-11-retro-space-jams-2016",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-11-retro-space-jam-378037-003",
           "Price Premium": "160%",
-          "Average Sale Price": "$494"
+          "Average-Sale-Price": "$494"
         },
         {
           "Name": "Jordan 11 Retro Legend Blue (2014)",
@@ -2319,7 +2319,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/jordan-11-retro-legend-blue-2014",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-11-retro-legend-blue-378037-117",
           "Price Premium": "144%",
-          "Average Sale Price": "$450"
+          "Average-Sale-Price": "$450"
         },
         {
           "Name": "Jordan 11 Retro Low Citrus (2021) (W)",
@@ -2331,7 +2331,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-11-retro-low-bright-citrus-w",
           "GOAT-link": "https://www.goat.com/sneakers/wmns-air-jordan-11-low-bright-citrus-ah7860-139",
           "Price Premium": "29%",
-          "Average Sale Price": "$233"
+          "Average-Sale-Price": "$233"
         },
         {
           "Name": "Jordan 11 Retro Win Like 96",
@@ -2343,7 +2343,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-11-retro-win-like-96",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-11-retro-gym-red-378037-623-abb4fed8-42d8-4998-9858-47500cc06cc7",
           "Price Premium": "94%",
-          "Average Sale Price": "$402"
+          "Average-Sale-Price": "$402"
         },
         {
           "Name": "Jordan 11 Retro Gamma Blue",
@@ -2355,7 +2355,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/jordan-11-retro-gamma-blue",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-11-retro-gamma-blue-378037-006",
           "Price Premium": "358%",
-          "Average Sale Price": "$700"
+          "Average-Sale-Price": "$700"
         }
       ], [
         {
@@ -2368,7 +2368,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-12-retro-black-taxi",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-12-retro-black-taxi-ct8013-071",
           "Price Premium": "N/A",
-          "Average Sale Price": "$219"
+          "Average-Sale-Price": "$219"
         },
         {
           "Name": "Jordan 12 Retro Playoffs (2022)",
@@ -2380,7 +2380,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-12-retro-playoffs-2022",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-12-retro-playoff-2022-ct8013-006",
           "Price Premium": "10%",
-          "Average Sale Price": "$254"
+          "Average-Sale-Price": "$254"
         },
         {
           "Name": "Jordan 12 Retro Stealth",
@@ -2392,7 +2392,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-12-retro-stealth",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-12-retro-stealth-ct8013-015",
           "Price Premium": "2%",
-          "Average Sale Price": "$202"
+          "Average-Sale-Price": "$202"
         },
         {
           "Name": "Jordan 12 Retro Royalty Taxi",
@@ -2404,7 +2404,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-12-retro-royalty-taxi",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-12-retro-royalty-ct8013-170",
           "Price Premium": "18%",
-          "Average Sale Price": "$263"
+          "Average-Sale-Price": "$263"
         },
         {
           "Name": "Jordan 12 Retro Low Golf Playoff",
@@ -2416,7 +2416,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-12-low-golf-playoff",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-12-low-golf-playoffs-dh4120-010",
           "Price Premium": "N/A",
-          "Average Sale Price": "$179"
+          "Average-Sale-Price": "$179"
         },
         {
           "Name": "Jordan 12 Retro Eastside Golf Out of the Clay",
@@ -2428,7 +2428,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-12-retro-eastside-golf",
           "GOAT-link": "https://www.goat.com/sneakers/eastside-golf-x-air-jordan-12-retro-out-the-mud-dv1758-108",
           "Price Premium": "10%",
-          "Average Sale Price": "$242"
+          "Average-Sale-Price": "$242"
         },
         {
           "Name": "Jordan 12 Retro Low Golf Taxi",
@@ -2440,7 +2440,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-12-retro-low-golf-taxi",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-12-low-golf-taxi-dh4120-100",
           "Price Premium": "N/A",
-          "Average Sale Price": "$255"
+          "Average-Sale-Price": "$255"
         },
         {
           "Name": "Jordan 12 Retro Twist",
@@ -2452,7 +2452,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-12-retro-twist",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-12-retro-twist-ct8013-106",
           "Price Premium": "45%",
-          "Average Sale Price": "$279"
+          "Average-Sale-Price": "$279"
         },
         {
           "Name": "Jordan 12 Retro Low Easter (2021)",
@@ -2464,7 +2464,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-12-retro-low-easter-2021",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-12-retro-low-easter-db0733-190",
           "Price Premium": "N/A",
-          "Average Sale Price": "$209"
+          "Average-Sale-Price": "$209"
         },
         {
           "Name": "Jordan 12 Retro Black Dark Concord",
@@ -2476,7 +2476,7 @@ const jordan_list = [
           "StockX-link": "https://stockx.com/air-jordan-12-retro-black-dark-concord",
           "GOAT-link": "https://www.goat.com/sneakers/air-jordan-12-retro-dark-concord-ct8013-005",
           "Price Premium": "47%",
-          "Average Sale Price": "$299"
+          "Average-Sale-Price": "$299"
         }
       ]
 
@@ -2589,9 +2589,88 @@ const clickevent = homepage.addEventListener('click', (e) => {
             // cardGOATLink.classList.add("card-stuff") // ~add class to card goat link
             // infoCard.append(cardGOATLink) // & append card goat link to info card
 
+            const prod_price_info = document.getElementById("prod-price-info")
+            const style_code = document.getElementById("style-code")
+            style_code.innerText = `Style Code: ${sneaker["Style-Code"]}`
+            style_code.style.fontFamily = "Rubik";
+            style_code.style.fontSize = "15px";
+            style_code.style.border = "2px solid hsl(0, 2%, 39%)";
+            style_code.style.borderRadius = "5px";
+            style_code.style.margin = "5px";
+
+            const avg_sale = document.getElementById("avg-sale")
+            avg_sale.innerText = `Average Sale Price: ${sneaker["Average-Sale-Price"]}`
+            avg_sale.style.fontFamily = "Rubik";
+            avg_sale.style.fontSize = "15px";
+            avg_sale.style.border = "2px solid hsl(0, 2%, 39%)";
+            avg_sale.style.borderRadius = "5px";
+            avg_sale.style.margin = "5px";
+
+            const retail_price = document.getElementById("retail-price")
+            retail_price.innerText = `Retail Price: ${sneaker["Retail-Price"]}`
+            retail_price.style.fontFamily = "Rubik";
+            retail_price.style.fontSize = "15px";
+            retail_price.style.border = "2px solid hsl(0, 2%, 39%)";
+            retail_price.style.borderRadius = "5px";
+            retail_price.style.margin = "5px";
+
+            const release_date = document.getElementById("release-date")
+            release_date.innerText = `Release Date: ${sneaker["Release-Date"]}`
+            release_date.style.fontFamily = "Rubik";
+            release_date.style.fontSize = "15px";
+            release_date.style.border = "2px solid hsl(0, 2%, 39%)";
+            release_date.style.borderRadius = "5px";
+            release_date.style.margin = "5px";
+
+            prod_price_info.style.fontFamily = "Rubik";
+            prod_price_info.style.fontSize = "15px";
+            prod_price_info.style.display = "flex";
+            prod_price_info.style.alignItems = "center";
+            prod_price_info.style.padding = "1rem";
+            
+            
+
             const desc_box = document.getElementById("description-box")
             desc_box.innerText = sneaker["Product-Description"]
-            desc_box.innerText.setAttribute("font-familt", "Rubik;")
+            desc_box.style.fontFamily = "Rubik";
+            desc_box.style.fontSize = "15px";
+            desc_box.style.display = "flex";
+            desc_box.style.alignItems = "center";
+            desc_box.style.padding = "1rem";
+
+            
+            const link_info_box = document.getElementById("link-info")
+            const stockx_ele = document.getElementById("stockx-link")
+            stockx_ele.innerText = `Find on StockX:`
+            stockx_ele.href = sneaker["StockX-link"]
+            link_info_box.style.fontFamily = "Rubik";
+            link_info_box.style.fontSize = "15px";
+            link_info_box.style.display = "flex";
+            link_info_box.style.alignItems = "center";
+            link_info_box.style.padding = "1rem";
+
+            const image = document.createElement("img");
+            image.src = "https://upload.wikimedia.org/wikipedia/commons/9/95/Stockx_logo.png?20190510130203";
+            image.alt = "StockX";
+            image.style.maxWidth = "60px";
+            image.style.height = "100%";
+            stockx_ele.appendChild(image);
+
+            const goat_ele = document.getElementById("goat-link")
+            goat_ele.innerText = `Find on GOAT:`
+            goat_ele.href = sneaker["GOAT-link"]
+            link_info_box.style.fontFamily = "Rubik";
+            link_info_box.style.fontSize = "15px";
+            link_info_box.style.display = "flex";
+            link_info_box.style.alignItems = "center";
+            link_info_box.style.padding = "1rem";
+
+            const image2 = document.createElement("img");
+            image2.src = "https://logos-world.net/wp-content/uploads/2022/01/GOAT-Logo-700x394.png";
+            image2.alt = "GOAT";
+            image2.style.maxWidth = "60px";
+            image2.style.height = "100%";
+            goat_ele.appendChild(image2);
 
             
             const sneakerInfoContainer = document.createElement("div"); // !create sneaker info container

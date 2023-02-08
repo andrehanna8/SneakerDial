@@ -2485,11 +2485,7 @@ const jordan_list = [
     document.addEventListener("click", function (event) {
         let dropdownContent = document.querySelector(".dropdown-content");
         let dropdownButton = document.querySelector(".dropbtn");
-        console.log(dropdownContent, "dropdownContent")
         if (!dropdownContent.contains(event.target) && event.target !== dropdownButton) {
-            console.log("supposed to be outside button")
-            console.log(dropdownContent, "dropdownContent")
-            
             dropdownContent.display = "none";
         } else {
             dropdownContent.style.zIndex = 1
@@ -2724,7 +2720,6 @@ const clickevent = homepage.addEventListener('click', (e) => {
             sneakerInfoContainer.append(goatLinkElement) // & append goat link element to sneaker info container
             
             sneaker_div.append(sneakerInfoContainer) // & append sneaker info container to sneaker div
-            console.log("button clicked") 
         })
     })
 }    

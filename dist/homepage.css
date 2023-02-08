@@ -4,13 +4,14 @@
   justify-content: right;
   align-items: right;
   height: 50px;
-  margin: 2%;
+  margin: 1%;
 }
 h1 {
     display: flex;
     font-family: Rancho;
     font-size: 50px;
-    justify-content: center;
+    float: left;
+    /* justify-content: center; */
     position: fixed;
 }
 
@@ -20,9 +21,13 @@ h2 {
     font-family: Roboto;
     font-size: 25px;
     /* justify-content: center; */
-    margin-left: 100px;
+    margin-left: 0px;
 }
 
+#selectorthing {
+  margin-top: 100px;
+  margin-left: 125px ;
+}
 
   /* https://webkit.org/blog-files/3d-transforms/morphing-cubes.html */
   

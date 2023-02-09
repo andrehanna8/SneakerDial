@@ -8,25 +8,19 @@
     * Basic Description
     * Release date / retail price
     * Links to the product to each respective marketplace
-    * Price-History graphs
-
-
-    - 
     
     
 
     **SneakerDial Home Page:**
     
+    ![image](https://user-images.githubusercontent.com/34076045/217715666-7a199f62-0d6c-4af9-b2c7-7118e40d87b2.png)
     
     
     **Catalog View Page:** 
     
-    ![image](https://user-images.githubusercontent.com/34076045/216459827-ef2fd974-2fa8-4dd3-9494-f9b8ddd36f78.png)
+    ![image](https://user-images.githubusercontent.com/34076045/217715746-0042790b-aae6-414d-8345-cc2f84595d9c.png)
 
 
-    Other libraries:
-    
-    Chart.js: https://www.chartjs.org/
 
 
 ***TIMELINE***

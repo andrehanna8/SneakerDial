@@ -200,22 +200,3 @@ const clickevent = homepage.addEventListener('click', (e) => {
    *  Implement a backend and make a user portfolio to add their own pairs
    *  Use a sneaker API with the backend and implement live price information as well as YTD price trends
    *  Refactor the spinning ring to change direction using the users mouse position
-
-***TIMELINE***
-
-   - 2/2 Thursday
-      * Finish proposal
-      * Begin page design
-      * Setup project resources
-   - 2/3 Friday
-      * Start with HTML and CSS, make sure that everything looks how its supposed to
-      * Make the Homepage as well as the individual product view page
-   - 2/6 Monday
-      * Complete HTML and CSS, if finished move on to incorporating Sneaks API with elemnets on the page
-   - 2/7 Tuesday
-      *  Continue with API incorporation
-   - 2/8 Wednesday
-      * Finishing touches and minor changes to elivate the style of the page
-   - 2/9 Thursday
-      * Deploy to github
-

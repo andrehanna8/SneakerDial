@@ -2491,10 +2491,13 @@ const jordan_list = [
             dropdownContent.style.zIndex = 1
         }
     });
+
+const home = document.getElementById("home")
 const instructions = document.getElementById("instructions")
 const infoCard = document.querySelector(".info-card")
 const homepage = document.getElementById("homepage")
 const catalog = document.getElementById("catalog")
+
 
 const card_container = document.getElementById("card-stuff-id")
     card_container.addEventListener('click', (e) => {
@@ -2503,6 +2506,16 @@ const card_container = document.getElementById("card-stuff-id")
             infoCard.removeAttribute("hidden")
         }
     })
+
+    document.addEventListener('click', (e) => {
+        if (e.target.id === "home") {
+            catalog.setAttribute("hidden", true)
+            homepage.removeAttribute("hidden")
+            console.log("home")
+        }
+    })
+
+
 
 const clickevent = homepage.addEventListener('click', (e) => {
     if (e.target.className === "resize" ) {

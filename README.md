@@ -7,7 +7,7 @@ https://andrehanna8.github.io/SneakerDial/#
    -  Select a silhouette from the dial
    -  Choose a sneaker from the sidebar
 
-***Technical Implementations: ***
+***Technical Implementations:***
 - Cycling through each colorway of the selected model using an index and creating buttons for each one. Index is set by using the id of the image or "silhouette" thats clicked:
          ![image](https://user-images.githubusercontent.com/34076045/217898122-232904c0-9a7b-4660-b4fc-8c83bd76217c.png)
          

@@ -2491,10 +2491,18 @@ const jordan_list = [
             dropdownContent.style.zIndex = 1
         }
     });
-    
-
+const instructions = document.getElementById("instructions")
+const infoCard = document.querySelector(".info-card")
 const homepage = document.getElementById("homepage")
 const catalog = document.getElementById("catalog")
+
+const card_container = document.getElementById("card-stuff-id")
+    card_container.addEventListener('click', (e) => {
+        if (e.target.className === "dropbtn") {
+            
+            infoCard.removeAttribute("hidden")
+        }
+    })
 
 const clickevent = homepage.addEventListener('click', (e) => {
     if (e.target.className === "resize" ) {
@@ -2510,6 +2518,7 @@ const clickevent = homepage.addEventListener('click', (e) => {
         const sneaker_div_button = document.createElement("button") // !create sneaker div button
         sneaker_div_button.classList.add("dropbtn") // ~add class to button
 
+        
         const button_image = document.createElement("img") // !create sneaker div dropdown image
         button_image.src = sneaker["img-link"] // ~add img to dropdown button
         button_image.classList.add("dd-button-img") // ~add class to dropdown button image

@@ -2,9 +2,6 @@
 ***Link to live site:*** 
 https://andrehanna8.github.io/SneakerDial/#
 
-![](sneakgif.gif)
-
-
 ***Instructions:***
    -  Select a silhouette from the dial
    -  Choose a sneaker from the sidebar
@@ -191,7 +188,7 @@ const clickevent = homepage.addEventListener('click', (e) => {
 
     **SneakerDial Home Page:**
     
-    ![image](https://user-images.githubusercontent.com/34076045/217715666-7a199f62-0d6c-4af9-b2c7-7118e40d87b2.png)
+    ![](sneakgif.gif)
     
     
     **Catalog View Page:** 

@@ -2,6 +2,8 @@
 ***Link to live site:*** 
 https://andrehanna8.github.io/SneakerDial/#
 
+![](https://github.com/SneakerDial/023-02-09-10-57-16 (online-video-cutter.com).gif)
+
 
 ***Instructions:***
    -  Select a silhouette from the dial

@@ -2,7 +2,7 @@
 ***Link to live site:*** 
 https://andrehanna8.github.io/SneakerDial/#
 
-![](https://github.com/SneakerDial/sneakgif.gif)
+![](sneakgif.gif)
 
 
 ***Instructions:***

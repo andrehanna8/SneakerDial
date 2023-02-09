@@ -10,6 +10,7 @@ https://andrehanna8.github.io/SneakerDial/#
 ***Technical Implementations:***
 - Cycling through each colorway of the selected model using an index and creating buttons for each one. Index is set by using the id of the image or "silhouette" thats clicked:
  ```
+ // wheelscript.js
 const homepage = document.getElementById("homepage")
 const catalog = document.getElementById("catalog")
 
@@ -174,7 +175,6 @@ const clickevent = homepage.addEventListener('click', (e) => {
   -webkit-transform: rotateY(330deg) translateZ(380px);
 }  
 ```
-   ![image](https://user-images.githubusercontent.com/34076045/217898619-5c23e654-ca68-4203-8fec-c7a879b52563.png)
    
 ***Features:***
 

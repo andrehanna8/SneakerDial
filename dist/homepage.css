@@ -13,6 +13,8 @@ h1 {
     float: left;
     /* justify-content: center; */
     position: fixed;
+    text-decoration: none;
+    color: white;
 }
 
 h2 {

@@ -258,4 +258,12 @@ h3 {
   float: right;
   
 }
-/* 
+@-webkit-keyframes spinClockwise {
+  from { -webkit-transform: rotateY(0); }
+  to   { -webkit-transform: rotateY(360deg); }
+}
+
+@-webkit-keyframes spinCounterClockwise {
+  from { -webkit-transform: rotateY(0); }
+  to   { -webkit-transform: rotateY(-360deg); }
+}

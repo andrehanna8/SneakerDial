@@ -2482,6 +2482,31 @@ const jordan_list = [
 
     ]
 
+    document.addEventListener('mousemove', (event) => {
+      const shape = document.getElementById('shape');
+      const screenWidth = window.innerWidth;
+      const mouseX = event.clientX;
+      const middleX = screenWidth / 2;
+      
+      // Calculate the distance from the middle of the page.
+      const distanceFromMiddle = Math.abs(mouseX - middleX);
+      
+      // Calculate the speed factor based on the distance.
+      const speedFactor = (distanceFromMiddle / middleX) * 20;
+      
+      // Set the animation duration based on the speed factor.
+      const animationDuration = Math.max(1, 20 - speedFactor) + 's';
+      
+      if (mouseX < middleX) {
+        shape.style.webkitAnimationName = 'spinClockwise';
+      } else {
+        shape.style.webkitAnimationName = 'spinCounterClockwise';
+      }
+      shape.style.webkitAnimationDuration = animationDuration;
+      shape.style.webkitAnimationIterationCount = 'infinite';
+      shape.style.webkitAnimationTimingFunction = 'linear';
+    });
+    
     document.addEventListener("click", function (event) {
         let dropdownContent = document.querySelector(".dropdown-content");
         let dropdownButton = document.querySelector(".dropbtn");

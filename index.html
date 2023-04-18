@@ -20,21 +20,25 @@
   
   <body>
     <div id="homepage">
-      <a class="github-button" href="https://github.com/andrehanna8/SneakerDial" target="_blank" aria-label="@andrehanna8 on GitHub">
-        <img src="dist/PngItem_1280311.png">
-      </a>
-
-      <a class="github-button" href="https://www.linkedin.com/in/andre-hanna/" target="_blank" aria-label="@andrehanna8 on GitHub">
-        <img src="dist/179330.png">
-      </a>
-      <!-- make h1 into a link to homepage -->
-      <a href="/">
+      <div class="top-bar">
         <h1>SneakerDial</h1>
-      </a>
-      
-      <h2 id="selectorthing">Select a Jordan model</h2>
+        
+       
+        <div class="buttons">
+          
+          <a class="github-button" href="https://github.com/andrehanna8/SneakerDial" target="_blank" aria-label="@andrehanna8 on GitHub">
+            <img src="dist/PngItem_1280311.png">
+          </a>
+    
+          <a class="github-button" href="https://www.linkedin.com/in/andre-hanna/" target="_blank" aria-label="@andrehanna8 on GitHub">
+            <img src="dist/179330.png">
+          </a>
+        </div>
+
+      </div>
   
       <div id="container">
+        <h2 id="selectorthing">Select a Jordan model</h2>
         <div id="stage">
           <div id="shape" class="ring backfaces">
             <a href="#" class="plane one"><img id="0" class="resize" src="dist/silhouettes/Silhouette-Jordan-1.png" ></a>
@@ -57,73 +61,71 @@
     
 
       <div hidden="true" id="catalog" class="slide">
-        <a class="github-button" href="https://github.com/andrehanna8/SneakerDial" target="_blank" aria-label="@andrehanna8 on GitHub">
-          <img src="dist/PngItem_1280311.png">
-        </a>
-  
-        <a class="github-button" href="https://www.linkedin.com/in/andre-hanna/" target="_blank" aria-label="@andrehanna8 on GitHub">
-          <img src="dist/179330.png">
-        </a>
-        
-        <!-- <a class="github-button" href="#">
-          <img class="home" src="images.png">
-        </a> -->
-        <a href="/">
-          <h1>SneakerDial</h1>
-        </a>
+        <div class="topheader">
+          <h1 id="cat-header">SneakerDial</h1> 
+          
+          <div class="socials-buttons">
+            <a class="github-button" href="https://github.com/andrehanna8/SneakerDial" target="_blank" aria-label="@andrehanna8 on GitHub">
+              <img src="dist/PngItem_1280311.png">
+            </a>
       
-        <h2 class="slide" id="shoe-name">Select a Shoe from the bar on the left!</h2>
-    
-        <!-- card and catalog elements -->
-        <div id="card-stuff-id" class="card-container">
-          <!-- <div id="instructions">
-              <img src="instructions.png">
-          </div> -->
+            <a class="github-button" href="https://www.linkedin.com/in/andre-hanna/" target="_blank" aria-label="@andrehanna8 on GitHub">
+              <img src="dist/179330.png">
+            </a>
+          </div>
+        </div>
 
-            <div hidden="true" id="fixed" class="info-card"> 
-              <h3>Currently Viewing:</h3>
-              <p id="shoe-card-name" class="card-stuff"></p>
-              <br>
-
-              <div id="description-box">
-                <p id="description" class="card-stuff"> </p>
-              </div>
-
-              <img id="shoe-img" class="card-stuff"></p>
-              <br>
-
-              <div id="link-info">
-                
-                <a href="#" id="stockx-link" class="card-stuff"></a>
-                <br>
-                <a href="#" id="goat-link" class="card-stuff"> </a>
-              </div>
-              
-              <div id="prod-price-info">
-                <p id="style-code" class="card-stuff"></p>
-                <br>
-                <p id="avg-sale"></p>
-                <br>
-                <p id="price-premium"></p>
-                <br>
-                <p id="retail-price"></p>
-                <br>
-                <p id="release-date"></p>
-
-              </div>
-              <!-- <button class="card-button">See More</button> -->
-            </div>
-    
-            <div class="catalog">
-              <div id="parent-dropdown" class="dropdown">
-                <!-- <button id="parent-button" onclick="myFunction()" class="dropbtn">SneakerName - Retail Price - Avg Sale Price - See More</button> -->
-                <div id="myDropdown" class="dropdown-content"> -->
-                  
+      
+          <div class="left-and-right-wrapper">
+            <div class="left-catalog">
+              <div class="catalog">
+                <div id="parent-dropdown" class="dropdown">
+                  <div id="myDropdown" class="dropdown-content"> 
+                    
+                  </div>
                 </div>
               </div>
             </div>
+
+            <div class="right-catalog">
+              <div id="card-stuff-id" class="card-container">
+                <h2 class="slide" id="shoe-name">Select a Shoe from the bar on the left!</h2>
+                <div hidden="true" id="fixed" class="info-card"> 
+                  <h3>Currently Viewing:</h3>
+                  <p id="shoe-card-name" class="card-stuff"></p>
+                  <br>
+
+                  <div id="description-box">
+                    <p id="description" class="card-stuff"> </p>
+                  </div>
+
+                  <img id="shoe-img" class="card-stuff"></p>
+                  <br>
+
+                  <div id="link-info">
+                    
+                    <a href="#" id="stockx-link" class="card-stuff"></a>
+                    <br>
+                    <a href="#" id="goat-link" class="card-stuff"> </a>
+                  </div>
+                  
+                  <div id="prod-price-info">
+                    <p id="style-code" class="card-stuff"></p>
+                    <br>
+                    <p id="avg-sale"></p>
+                    <br>
+                    <p id="price-premium"></p>
+                    <br>
+                    <p id="retail-price"></p>
+                    <br>
+                    <p id="release-date"></p>
+                  </div>
+                </div>
+            </div>
+            </div> 
         </div>
       </div>
+      
   </body>
 
 </html>

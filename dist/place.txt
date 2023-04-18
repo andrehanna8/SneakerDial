@@ -1,0 +1,80 @@
+ let isAnimationRunning = false;
+
+    document.addEventListener('mousemove', (event) => {
+      const shape = document.getElementById('shape');
+      const screenWidth = window.innerWidth;
+      const mouseX = event.clientX;
+      const middleX = screenWidth / 2;
+    
+      // Set a constant speed factor.
+      const speedFactor = 10;
+    
+      // Set the animation duration based on the speed factor.
+      const animationDuration = Math.max(1, 20 - speedFactor) + 's';
+    
+      if (mouseX < middleX) {
+        shape.style.webkitAnimationName = 'spinClockwise';
+      } else {
+        shape.style.webkitAnimationName = 'spinCounterClockwise';
+      }
+    
+      // Pause the animation when the mouse is over the middle.
+      if (Math.abs(mouseX - middleX) < 5) { // Set a threshold of 5 pixels
+        shape.style.webkitAnimationPlayState = 'paused';
+        isAnimationRunning = false;
+      } else {
+        if (!isAnimationRunning) {
+          shape.style.webkitAnimationDuration = animationDuration;
+          shape.style.webkitAnimationIterationCount = 'infinite';
+          shape.style.webkitAnimationTimingFunction = 'linear';
+          shape.style.webkitAnimationPlayState = 'running';
+          isAnimationRunning = true;
+        }
+      }
+    });
+    
+    
+    document.addEventListener("click", function (event) {
+        let dropdownContent = document.querySelector(".dropdown-content");
+        let dropdownButton = document.querySelector(".dropbtn");
+        if (!dropdownContent.contains(event.target) && event.target !== dropdownButton) {
+            dropdownContent.display = "none";
+        } else {
+            dropdownContent.style.zIndex = 1
+        }
+    });
+
+const home = document.getElementById("home")
+const instructions = document.getElementById("instructions")
+const infoCard = document.querySelector(".info-card")
+const homepage = document.getElementById("homepage")
+const catalog = document.getElementById("catalog")
+
+
+const card_container = document.getElementById("card-stuff-id")
+    card_container.addEventListener('click', (e) => {
+        if (e.target.className === "dropbtn") {
+            
+            infoCard.removeAttribute("hidden")
+        }
+    })
+
+    document.addEventListener('click', (e) => {
+        if (e.target.id === "home") {
+            catalog.setAttribute("hidden", true)
+            homepage.removeAttribute("hidden")
+            console.log("home")
+        }
+    })
+
+
+
+const clickevent = homepage.addEventListener('click', (e) => {
+    if (e.target.className === "resize" ) {
+        homepage.setAttribute("hidden", true) //hides homepage
+        catalog.removeAttribute("hidden") // shows catalog
+        const index = Number(e.target.id)
+
+    jordan_list[index].forEach(sneaker => { 
+        //rest of code
+    

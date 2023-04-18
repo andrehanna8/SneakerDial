@@ -1,120 +1,159 @@
 .github-button {
-    display: flex;
-    justify-content: right;
-    align-items: right;
-    height: 50px;
-  }
+  /* display: flex; */
+  /* justify-content: right; */
+  /* align-items: right; */
+  height: 50px;
+}
 
-  h1 {
-    display: flex;
-    font-family: Rancho;
-    font-size: 50px;
-    justify-content: left;
-    margin: 2%;
+h1 {
+  /* display: flex; */
+  font-family: Rancho;
+  font-size: 50px;
+  justify-content: left;
+  margin: 2%;
 }
 
 h2 {
-    display: flex;
-    font-family: Rancho;
-    font-size: 30px;
-    justify-content: center;
+  /* display: flex; */
+  font-family: Rancho;
+  font-size: 30px;
+  justify-content: center;
 }
 
 .slide {
-    animation: slide-up 2s;
+  animation: slide-up 2s;
 }
 
 @keyframes slide-up {
-    from {
-        opacity: 0.2;
-        line-height: 700px;
-    } to {
-        opacity: 1;
-        line-height: 25px;
-    }
-    
+  from {
+      opacity: 0.2;
+      line-height: 700px;
+  } to {
+      opacity: 1;
+      line-height: 25px;
+  }
+  
 }
 
 .container {
-    border: 3px solid #fff;
-    padding: 20px;
+  border: 3px solid #fff;
+  padding: 20px;
 }
 .info-card {
-    /* margin-top: 50px; */
-    margin-left: 500px;
-     background-color: white;
-     outline: black solid 2px;
-     height: 525px;
-     width: 850px;
-     padding: 20px;
-     border-radius: 10px;
+  /* position: relative; */
+   background-color: white;
+   outline: black solid 2px;
+   height: 525px;
+   width: 55vw;
+   padding: 20px;
+   border-radius: 10px;
+   top: 20%;
 }
 
 
 .catalog {
-    margin-left: 250px;
-    margin-top: 157px;
-    margin-right: 150px;
-     background-color: rgb(255, 255, 255);
-     border-radius: 10px;
-     /* outline: black solid 2px; */
-     height: 100%;
-     width: 200px;
-     float: left;
+  /* margin-left: 275px; */
+  /* margin-top: 157px; */
+  /* margin-right: 150px; */
+   background-color: rgb(255, 255, 255);
+   border-radius: 10px;
+   /* outline: black solid 2px; */
+   height: 100%;
+   width: 200px;
+   /* float: left; */
 }
 
+#card-stuff-id {
+position: fixed;
+}
 
 /* Dropdown Button */
 .dropbtn {
-    font-family: Rubik;
-    background-color: #d7d0d0;
-    border-style: solid black 2px;
-    color: black;
-    padding: 0px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    height: 60px;
-    width: 175px;
-    margin: 10px;
-    /* margin-bottom: 30px; */
-  }
-  
-  /* Dropdown button on hover & focus */
-  .dropbtn:hover, .dropbtn:focus {
-    background-color: #bfbbbb;
-  }
-  
-  /* The container <div> - needed to position the dropdown content */
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 850px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    border: solid black 2px;
-    margin-left: 20px;
-    height: 350px;
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
-    display: none;
-  }
-  
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #ddd;}
-  
-  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-  .show {display: none;}
+  font-family: Rubik;
+  background-color: #d7d0d0;
+  border-style: solid black 2px;
+  color: black;
+  padding: 0px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  height: 60px;
+  width: 175px;
+  margin: 10px;
+  /* margin-bottom: 30px; */
+}
 
-  .button-content {
-    display: none;
-  }
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #bfbbbb;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  /* position: relative; */
+  /* display: inline-block; */
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  /* position: absolute; */
+  background-color: #f1f1f1;
+  min-width: 850px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: solid black 2px;
+  margin-left: 20px;
+  height: 350px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  display: none;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display: none;}
+
+.button-content {
+  display: none;
+}
+
+#homepage {
+  /* height: 100vh; */
+  overflow-y: hidden;
+  /* position: absolute; */
+  width: 100%;
+}
+
+#catalog {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  /* padding-right: 20px; */
+  display: none;
+}
+
+.top-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+  
+.buttons {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+
+.buttons a {
+  margin: 2px;
+}

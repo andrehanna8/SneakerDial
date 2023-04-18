@@ -6,19 +6,27 @@
   height: 50px;
   margin: 1%;
 }
+
+.homepage{
+  height: 100vh;
+}
+
+/* #catalog {
+  display: flex;
+  flex-direction: column;
+} */
 h1 {
-    display: flex;
+    /* display: flex; */
     font-family: Rancho;
     font-size: 50px;
     float: left;
     /* justify-content: center; */
-    position: fixed;
-    text-decoration: none;
-    color: white;
+    /* position: fixed; */
+    cursor: pointer;
 }
 
 h2 {
-  margin-top: 75px;
+  /* margin-top: 75px; */
     display: flex;
     font-family: Roboto;
     font-size: 25px;
@@ -26,13 +34,7 @@ h2 {
     margin-left: 0px;
 }
 
-#selectorthing {
-  margin-top: 100px;
-  margin-left: 125px ;
-}
 
-  /* https://webkit.org/blog-files/3d-transforms/morphing-cubes.html */
-  
 body {
   background-color: black;
   color: white;
@@ -51,6 +53,7 @@ body {
   height: 700px;
   -webkit-perspective: 5000; 
   -webkit-perspective-origin: 50% 225px;
+  
 }
 #stage {
   width: 100%;
@@ -104,7 +107,6 @@ body {
 
 .resize {
   width: 200px;
-
 }
 
 
@@ -161,17 +163,6 @@ body {
 .ring > .twelve {
   -webkit-transform: rotateY(330deg) translateZ(380px);
 }  
-
-/* #shoe-img {
-  width: 50px;
-  height: 50px;
-} */
-
-/* .div-img-resize {
-  width: 50px;
-  height: 50px;
-} */
-
 .dd-img {
   margin: 10px;
   border-radius: 10px;
@@ -179,7 +170,7 @@ body {
   height: 100%;
 }
 .dd-button-img {
-  margin-left: 100px;
+  /* margin-left: 100px; */
   width: 10px;
   height: 10;
 }
@@ -198,29 +189,20 @@ h3 {
   color: black;
 }
 #shoe-img {
-  display: flex;
+  /* display: flex; */
   max-width: 300px;
   height: 100%px;
 }
 
-#fixed {
+/* #fixed {
     position: fixed;
     top: 215px;
-}
-
-/* .button-content {
-  color: black;
-} */
-
-/* #catalog {
-  background-color: ;
 } */
 
 
 #shoe-name {
   font-family: Rubik;
-  position: fixed;
-  margin-left: 610px;
+  /* position: fixed; */
 }
 
 #description-box {
@@ -230,8 +212,6 @@ h3 {
   width: 500px;
   height: 175px;
   border-radius: 5px;
-  
-  /* margin-bottom: 900px; */
 }
 
 #description-box p {
@@ -269,3 +249,51 @@ h3 {
   from { -webkit-transform: rotateY(0); }
   to   { -webkit-transform: rotateY(-360deg); }
 }
+
+
+
+#description-box{
+  overflow-y: auto;
+}
+
+.topheader{
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  width: 99%;
+  justify-content: space-between;
+  position: fixed;
+}
+.left-catalog{
+/* width: auto; */
+height: 100%;
+}
+
+.right-catalog{
+  /* width: auto; */
+  height: 100%;
+  margin-left: 30px;
+  margin-bottom: 100px;
+}
+
+.left-and-right-wrapper{
+  display: flex;
+  /* position: absolute; */
+  /* flex-direction: row; */
+  /* justify-content: space-between !important; */
+  /* align-items: normal; */
+  width: fit-content;
+  /* overflow-x: hidden; */
+  margin-top: 200px !important;
+  margin-left: 20%;
+
+}
+
+
+
+#homepage{
+  
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
